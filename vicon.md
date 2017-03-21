@@ -13,5 +13,5 @@ The [VICON](https://www.vicon.com/ "VICON") motion capture system is made of cam
 * Main station \(PC\)
 * VICON software \(PC\)
 
-![](/assets/vicon.png)
+
 
