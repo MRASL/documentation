@@ -8,7 +8,8 @@ The [VICON](https://www.vicon.com/ "VICON") motion capture system is made of cam
 
 ## List of Components
 
-* VICON Bonita infrared cameras
+* VICON Bonita infrared cameras \(x12\)
+* VICON Active Wand \(T-shaped\)
 * Main station \(PC\)
 * VICON software \(PC\)
 
