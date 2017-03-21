@@ -2,7 +2,7 @@
 
 ## General Overview
 
-The [VICON](https://www.vicon.com/ "VICON") motion capture system is made of a network of infrared cameras that can precisely \(~1 mm\) determine the linear and angular positions of a 3D object in a predetermined space. Cool eh?!
+The [VICON](https://www.vicon.com/ "VICON") motion capture system is made of a network of infrared cameras that can precisely \(~1 mm\) determine the linear and angular positions of a 3D object in a predetermined space.
 
 ![](/assets/voliere.jpg)
 
