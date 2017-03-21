@@ -4,14 +4,14 @@
 2. Install the [Gitbook Editor.](https://www.gitbook.com/editor)
 3. Log in to the Gitbook Editor.
 
-   ![](/assets/gitbook-login.png)
+   ![](/assets/images/gitbook-login.png)
 4. I logged in through Github so I also had to authorize the application.  
 
-   ![](/assets/gitbook-authorize.png)
+   ![](/assets/images/gitbook-authorize.png)
 5. Select the Documentation book.  
 
-   ![](/assets/gitbook-book.png)
-6. Pick a page in the TOC on the left to edit.![](/assets/gitbook-edit.png)
+   ![](/assets/images/gitbook-book.png)
+6. Pick a page in the TOC on the left to edit.![](/assets/images/gitbook-edit.png)
 7. Send your changes
    1. If you want someone to review your modifications click "Create a change request".
-   2. If you don't want anyone to review click "Save" and the "Publish and Sync" button ![](/assets/Selection_074.png)
+   2. If you don't want anyone to review click "Save" and the "Publish and Sync" button ![](/assets/images/gitbook-pubsync.png)
