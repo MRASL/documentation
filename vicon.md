@@ -2,7 +2,7 @@
 
 ## General Overview
 
-The [VICON](https://www.vicon.com/ "VICON") motion capture system is made of cameras that can precisely \(~mm\) determine the position of an object in a predetermined space.
+The [VICON](https://www.vicon.com/ "VICON") motion capture system is made of cameras that can precisely \(~1 mm\) determine the position of an object in a predetermined space.
 
 ![](/assets/voliere.jpg)
 
