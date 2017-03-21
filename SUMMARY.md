@@ -9,6 +9,7 @@
   * [(TODO) Parrot AR Drone]()
 * [Ground Vehicles](ground-vehicles.md)
   * [Clearpath Husky](UGV/Husky/Husky.md)
+    * [Usage](UGV/Husky/Usage.md)
   * [iRobot Create](UGV/Create/Usage.md)
 * Other Robots
   * [(TODO) Kinova Mico arm]()
