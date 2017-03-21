@@ -10,6 +10,8 @@
 * [Ground Vehicles](ground-vehicles.md)
   * [Clearpath Husky](UGV/Husky/Usage.md)
   * [iRobot Create](UGV/Create/Usage.md)
+* Other Robots
+  * [(TODO) Kinova Mico arm]()
 * [Equipment](equipment.md)
   * [Vicon](vicon.md)
     * [Calibration](Equipment/Vicon/Calibration.md)
