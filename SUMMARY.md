@@ -5,6 +5,8 @@
   * [Asctec Firefly](UAV/AscTec/Firefly.md)
   * [Asctec Pelican](UAV/AscTec/Pelican.md)
   * [DJI M100](UAV/DJI/M100.md)
+  * [(TODO) Bitcraze Crazyflie]()
+  * [(TODO) Parrot AR Drone]()
 * [Ground Vehicles](ground-vehicles.md)
   * [Clearpath Husky](UGV/Husky/Usage.md)
   * [iRobot Create](UGV/Create/Usage.md)
@@ -16,4 +18,3 @@
 * Logistics
   * [Personnel](Logistics/People.md)
   * [Contribute \(Gitbook Editor\)](Logistics/Gitbook.md)
-
