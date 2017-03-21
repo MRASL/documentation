@@ -8,7 +8,7 @@
   * [(TODO) Bitcraze Crazyflie]()
   * [(TODO) Parrot AR Drone]()
 * [Ground Vehicles](ground-vehicles.md)
-  * [Clearpath Husky](UGV/Husky/Usage.md)
+  * [Clearpath Husky](UGV/Husky/Husky.md)
   * [iRobot Create](UGV/Create/Usage.md)
 * Other Robots
   * [(TODO) Kinova Mico arm]()
