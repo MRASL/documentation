@@ -18,6 +18,8 @@
     * [Calibration](Equipment/Vicon/Calibration.md)
     * [Usage](Equipment/Vicon/Usage.md)
     * [FAQ](Equipment/Vicon/faq.md)
+  * Networking
+    * [WiFi](Equipment/Networking/WiFi.md)
 * Logistics
   * [Personnel](Logistics/People.md)
   * [Contribute \(Gitbook Editor\)](Logistics/Gitbook.md)
