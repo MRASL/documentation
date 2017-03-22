@@ -23,7 +23,7 @@
 | Onboard computer Hostname   | cpr-plm01-husky     |
 | Onboard computer login      | *****               |
 | Axis camera IP              | 192.168.1.14        |
-| Axis PTZ camera Login       | ******              |
+| Axis PTZ camera Login       | *****              |
 | SICK Lidar IP               | 192.168.1.14        |
 
 **\*** Talk to Andre about this
