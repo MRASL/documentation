@@ -22,7 +22,7 @@
   * _Research subject:_ Path planning for robots using Monte Carlo
 * **Dang Quang Nguyen**
   * M.Sc.A. student under the supervision of Prof. Le Ny
-  * _Research subject:_ Something about wheelchairs
+  * _Research subject:_ Collaborative control of a smart wheel chair with obstacle avoidance
 * **Olivier Gougeon**
   * M.Sc.A. student under the supervision of Prof. Saussié
   * _Research subject:_ Convertible/Hybrid drones
