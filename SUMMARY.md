@@ -23,3 +23,4 @@
 * Logistics
   * [Personnel](Logistics/People.md)
   * [Contribute \(Gitbook Editor\)](Logistics/Gitbook.md)
+* [Past Projects](past-projects.md)
