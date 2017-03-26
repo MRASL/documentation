@@ -22,6 +22,7 @@
     * [WiFi](Equipment/Networking/WiFi.md)
 1. Software
   * [Git and Github](Software/Git.md)
+  * (TODO) Matlab
   * (TODO) ROS
 1. Logistics
   * [Personnel](Logistics/People.md)
