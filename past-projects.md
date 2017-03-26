@@ -16,12 +16,12 @@ Our lab is relatively young but we've already accomplished quite a few projects!
   * **Students**: Alexandre Borowczyck, Gabriel Guilbert, Andre Phu-Van Nguyen, Dang Quang Nguyen, Duc Tien Nguyen
   * **Advised by**: Jérôme Le Ny and David Saussié
 * Modeling and design of a controller for a multirotor equipped with a robotic manipulator
-  * **Description**: 
+  * **Description**:
   * **Project type**: Undergraduate research internship
   * **Student**: Aissa Aha
   * **Advised by**: David Saussié
-* Development and control of a swarm of nano quadrotors
-  * **Description**: In order for a swarm of nano quadrotors to localize itself using a TDOA, we must first synchronize the clocks of each base station. In this project a Kalman filter was developed to estimate and compensate for clock errors for accurate TDOA positioning.
+* [Development and control of a swarm of nano quadrotors](assets/reports/supe_sagar_2017.pdf)
+  * **Description**: In order for a swarm of nano quadrotors to localize itself using a TDOA, we must first synchronize the clocks of each base station. In this project an Alpha Beta filter was developed to estimate and compensate for clock errors for accurate TDOA positioning.
   * **Project type**: Undergraduate research internship
   * **Student**: Sagar Supe
   * **Advised by**: Jérôme Le Ny
