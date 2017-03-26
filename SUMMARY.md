@@ -20,6 +20,9 @@
     * [FAQ](Equipment/Vicon/faq.md)
   * Networking
     * [WiFi](Equipment/Networking/WiFi.md)
+1. Software
+  * [Git and Github](Software/Git.md)
+  * (TODO) ROS
 1. Logistics
   * [Personnel](Logistics/People.md)
   * [Contribute \(Gitbook Editor\)](Logistics/Gitbook.md)
