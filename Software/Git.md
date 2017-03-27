@@ -1,5 +1,9 @@
 # How to use the Git version control system
 
+There are a few ways to learn git online including:
+
+* The Pro Git [book](https://git-scm.com/book/en/v2)
+* Github's interactive [tutorial](https://try.github.io/levels/1/challenges/1)
 
 ## Tips and tricks (courtesy of the [CIA](https://wikileaks.org/ciav7p1/cms/page_1179773.html))
 
