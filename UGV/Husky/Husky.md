@@ -47,3 +47,9 @@ the battery.
 
 In order to supply power to a Microsoft Kinect 2 during S.R. Manikandasriram's
 mapping project, an extra isolated 12V rail was required.
+
+## Damage
+
+The Husky has sustained damage to its Asus router, do not use the third port as
+some of the wiring is crooked in the ethernet jack. Be careful when operating the
+Husky while tethered.
