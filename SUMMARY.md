@@ -2,7 +2,7 @@
 
 1. [Introduction](README.md)
 1. Aerial Vehicles
-  * [Before you fly](UAV/AscTec/Safety.md)
+  * [Before you fly](UAV/Safety.md)
   * Ascending Technologies
     * [Asctec Firefly](UAV/AscTec/Firefly.md)
     * [Asctec Pelican](UAV/AscTec/Pelican.md)
