@@ -2,8 +2,10 @@
 
 1. [Introduction](README.md)
 1. Aerial Vehicles
-  * [Asctec Firefly](UAV/AscTec/Firefly.md)
-  * [Asctec Pelican](UAV/AscTec/Pelican.md)
+  * [Before you fly](UAV/AscTec/Safety.md)
+  * Ascending Technologies
+    * [Asctec Firefly](UAV/AscTec/Firefly.md)
+    * [Asctec Pelican](UAV/AscTec/Pelican.md)
   * [DJI M100](UAV/DJI/M100.md)
   * [(TODO) Bitcraze Crazyflie]()
   * [(TODO) Parrot AR Drone]()
