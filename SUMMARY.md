@@ -22,6 +22,7 @@
     * [FAQ](Equipment/Vicon/faq.md)
   * Networking
     * [WiFi](Equipment/Networking/WiFi.md)
+  * [Coffee Machine](Equipment/coffee.md)
 1. Software
   * [Git and Github](Software/Git.md)
   * [Unix](Software/Unix.md)
