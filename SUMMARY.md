@@ -30,5 +30,6 @@
   * (TODO) ROS
 1. Logistics
   * [Personnel](Logistics/People.md)
+  * [Contribute \(Github\)](Logistics/Contribute.md)
   * [Contribute \(Gitbook Editor\)](Logistics/Gitbook.md)
 1. [Past Projects](past-projects.md)
