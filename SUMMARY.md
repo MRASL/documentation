@@ -24,6 +24,7 @@
     * [WiFi](Equipment/Networking/WiFi.md)
   * [Coffee Machine](Equipment/coffee.md)
 1. Software
+  * [Conventions](Software/conventions.md)
   * [Git and Github](Software/Git.md)
   * [Unix](Software/Unix.md)
   * (TODO) Matlab
