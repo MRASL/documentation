@@ -8,7 +8,7 @@ sudo npm install gitbook-cli -g
 ```
 There's a weird problem on Ubuntu where `node` is installed as `nodejs` so you have to add a symlink.
 ```
-ln -s /usr/bin/nodejs /usr/bin/node
+sudo ln -s /usr/bin/nodejs /usr/bin/node
 ```
 
 ## Modify the book
@@ -20,6 +20,6 @@ If you want to preview locally you can host the book.
 ```
 gitbook serve
 ```
-And the point your browser to `http://localhost:4000`.
+And then point your browser to `http://localhost:4000`.
 
 When you're done, just commit and push to the master branch and your modifications will show up on https://mrasl.gitbooks.io/documentation/ in no time!
