@@ -14,7 +14,7 @@
     * [Usage](UGV/Husky/Usage.md)
   * [iRobot Create](UGV/Create/Usage.md)
 1. Other Robots
-  * [(TODO) Kinova Mico arm]()
+  * [Kinova Mico Arm](Other/Mico/Mico.md)
 1. [Equipment](equipment.md)
   * [Vicon](vicon.md)
     * [Calibration](Equipment/Vicon/Calibration.md)
