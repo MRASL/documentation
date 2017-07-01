@@ -46,7 +46,7 @@ the battery.
 ## Custom modificatons by MRASL
 
 In order to supply power to a Microsoft Kinect 2 during S.R. Manikandasriram's
-mapping project, an extra isolated 12V rail was required.
+mapping project, an extra isolated 12V rail was required. On the inside of the husky you will find a [Pololu D24V150F12](https://www.pololu.com/product/2885/resources) taped to the side. It has it's own 5A fuse isolated from the rest of the power rails.
 
 ## Damage
 
