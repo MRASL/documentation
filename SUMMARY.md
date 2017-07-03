@@ -7,7 +7,7 @@
     * [Asctec Firefly](UAV/AscTec/Firefly.md)
     * [Asctec Pelican](UAV/AscTec/Pelican.md)
   * [DJI M100](UAV/DJI/M100.md)
-  * [\(TODO\) Bitcraze Crazyflie](UAV/todo-bitcraze-crazyflie.md)
+  * [Bitcraze Crazyflie 2.0](UAV/todo-bitcraze-crazyflie.md)
   * \(TODO\) Parrot AR Drone
 * [Ground Vehicles](ground-vehicles.md)
   * [Clearpath Husky](UGV/Husky/Husky.md)

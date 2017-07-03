@@ -4,7 +4,7 @@
 
 #### Overview
 
-The Crazyflie 2.0 is an open-source micro-quadrotor created by Bitcraze. It can be controlled with a remote control device using a premade client or by an external program via the crazyradio PA dongle. For more information on the specifications of the crazyflie 2.0 see Ben Landry's Master's thesis: 
+The Crazyflie 2.0 is an open-source micro-quadrotor created by Bitcraze. It can be controlled with a remote control device using a premade client or by an external program via the crazyradio PA dongle. For more information on the specifications of the crazyflie 2.0 see Ben Landry's Master's thesis:
 
 [http://groups.csail.mit.edu/robotics-center/public\_papers/Landry15.pdf](http://groups.csail.mit.edu/robotics-center/public_papers/Landry15.pdf)
 
@@ -15,14 +15,14 @@ In its default settings, the crazyflie 2.0 accepts the following types of comman
 * Commanded roll angle in degrees
 * Commanded yaw **RATE** in degrees/sec
 
-Note that if the controller you've designed controls for individual rotor speeds, you'll have to either restructure your controller or completely rework the quad's firmware \(possible but complicated and might produce limited results. more on that later\). 
+Note that if the controller you've designed controls for individual rotor speeds, you'll have to either restructure your controller or completely rework the quad's firmware \(possible but complicated and might produce limited results. more on that later\).
 
 When Communicating with R.O.S. It returns:
 
 * Commanded individual rotor speeds
-* Yaw,Pitch Roll rates and angles in deg/sec and deg
+* Yaw, Pitch Roll rates and angles in deg/sec and deg
 
-Unfortunately it does not automatically return the values of the other on-board accelerometers and gyros that could be useful in the estimation of the position and velocity of the quadrotor. 
+Unfortunately it does not automatically return the values of the other on-board accelerometers and gyros that could be useful in the estimation of the position and velocity of the quadrotor.
 
 ## Getting Started
 
@@ -36,11 +36,18 @@ Some useful topics include:
 
 * [Getting started with development](https://www.bitcraze.io/getting-started-with-development/) \(for firmware modifications\)
 
-# More to come... 
+If you're working in Ubuntu, you will need to set up a udev rule giving read/write permissions to the crasyradio USB dongle. This will allow communications between the crazyflie 2.0 and your P.C. Useful links for writing these permissions can be found here:
+
+* [http://weininger.net/how-to-write-udev-rules-for-usb-devices.html](http://weininger.net/how-to-write-udev-rules-for-usb-devices.html "writing udev rules") \(writing udev rules\)
+* [https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started](https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started) \(using the vim text editor\)
+
+##  
 
 
 
 
+
+# More to come...
 
 
 
