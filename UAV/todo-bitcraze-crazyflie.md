@@ -6,7 +6,7 @@
 
 The Crazyflie 2.0 is an open-source micro-quadrotor created by Bitcraze. It can be controlled with a remote control device using a premade client or by an external program via the crazyradio PA dongle. For more information on the specifications of the crazyflie 2.0 see Ben Landry's Master's thesis:
 
-[http://groups.csail.mit.edu/robotics-center/public\_papers/Landry15.pdf](http://groups.csail.mit.edu/robotics-center/public_papers/Landry15.pdf)
+[Planning and Control for Quadrotor Flight through Cluttered Environments](http://groups.csail.mit.edu/robotics-center/public_papers/Landry15.pdf)
 
 In its default settings, the crazyflie 2.0 accepts the following types of commands:
 
@@ -40,8 +40,8 @@ Some useful topics include:
 
 If you're working in Ubuntu, you will need to set up a udev rule giving read/write permissions to the crasyradio USB dongle. This will allow communications between the crazyflie 2.0 and your P.C. Useful links for writing these permissions can be found here:
 
-* [http://weininger.net/how-to-write-udev-rules-for-usb-devices.html](http://weininger.net/how-to-write-udev-rules-for-usb-devices.html "writing udev rules") \(writing udev rules\)
-* [https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started](https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started) \(using the vim text editor\)
+* [Writing Udev Rules](http://weininger.net/how-to-write-udev-rules-for-usb-devices.html "writing udev rules")
+* [Using the Vim Text Editor](https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started)
 
 ## Setting up With ROS
 
@@ -49,18 +49,13 @@ If you want to control your crazyflie over ROS, there are a few steps you must f
 
 [http://wiki.ros.org/ROS/Tutorials](http://wiki.ros.org/ROS/Tutorials)
 
-
-
 .......
-
-
 
 ## Possible Firmware Mods
 
-
-
 * individual motor control......
 * accelerometer reading for EKF......
+* Changing attitude controller gains.....
 
 ......
 
