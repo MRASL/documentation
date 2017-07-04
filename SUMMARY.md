@@ -27,7 +27,7 @@
   * [Conventions](Software/conventions.md)
   * [Git and Github](Software/Git.md)
   * [Unix](Software/Unix.md)
-  * \(TODO\) Matlab
+  * [MATLAB/Simulink](Software/todo-matlab.md)
   * \(TODO\) ROS
 * Logistics
   * [Personnel](Logistics/People.md)
