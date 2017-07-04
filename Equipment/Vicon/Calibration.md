@@ -8,10 +8,11 @@ Ask [Olivier Gougeon](mailto:olivier.gougeon@polymtl.ca) how to calibrate.
 
 ## Before You Start
 
-The before-you-start checklist:
+The before-you-start-checklist:
 
 * [ ] Is the floor well covered?
-* [ ] Are the nets placed in their experimental configuration?
+* [ ] Are all the objects in the flight area placed in their experimental configuration? \(Mats, tiles, nets, etc.\)
+* [ ] Are the mats
 
 
 
