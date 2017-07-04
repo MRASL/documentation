@@ -4,3 +4,7 @@
 
 Ask [Olivier Gougeon](mailto:olivier.gougeon@polymtl.ca) how to calibrate.
 
+\[WHAT FOLLOWS IS CURRENTLY BEING EDITED\]
+
+
+
