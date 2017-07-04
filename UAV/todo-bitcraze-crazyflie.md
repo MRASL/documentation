@@ -15,6 +15,8 @@ In its default settings, the crazyflie 2.0 accepts the following types of comman
 * Commanded roll angle in degrees
 * Commanded yaw **RATE** in degrees/sec
 
+tests have shown that the equilibrium value of thrust for the crazyflie in steady hover is 38160.
+
 Note that if the controller you've designed controls for individual rotor speeds, you'll have to either restructure your controller or completely rework the quad's firmware \(possible but complicated and might produce limited results. more on that later\).
 
 When Communicating with R.O.S. It returns:
@@ -41,11 +43,26 @@ If you're working in Ubuntu, you will need to set up a udev rule giving read/wri
 * [http://weininger.net/how-to-write-udev-rules-for-usb-devices.html](http://weininger.net/how-to-write-udev-rules-for-usb-devices.html "writing udev rules") \(writing udev rules\)
 * [https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started](https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started) \(using the vim text editor\)
 
-##  
+## Setting up With ROS
+
+If you want to control your crazyflie over ROS, there are a few steps you must follow. If you are unfamiliar with ROS, please see the section dedicated to it in the Software section of the documentation or go through some base tutorials:
+
+[http://wiki.ros.org/ROS/Tutorials](http://wiki.ros.org/ROS/Tutorials)
 
 
 
+.......
 
+
+
+## Possible Firmware Mods
+
+
+
+* individual motor control......
+* accelerometer reading for EKF......
+
+......
 
 # More to come...
 
