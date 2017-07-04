@@ -16,7 +16,7 @@ The before-you-start-checklist:
 
 If you answered YES to all the above questions, you are now free to proceed to the next step.
 
-## Using the "Vicon Control" Mobile App
+## Using the _Vicon Control_ Mobile App
 
-
+The [_Vicon Control_](https://www.vicon.com/products/software/vicon-control) mobile app is available for iOS or Android devices. You may dowload it visiting the App Store or Google Play. It allows you do to different things such as playing with the camera and calibration settings. It is mostly usefull for the calibration process as it allows you to view directly on your device \(phone or tablet\) and in real-time the advancement of the calibration process underway.
 
