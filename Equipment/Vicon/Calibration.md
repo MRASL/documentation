@@ -72,14 +72,31 @@ Follow these steps to use the _Vicon Control_ mobile app during the calibration 
 
 16. \[_Optional_\] You are now ready to use the _Vicon Control_ app to navigate through the different camera views \(note that the Vicon system is also ready to be used\)
 
+---
+
 ## Calibration Procedure
 
 This section details the calibration procedure of the Vicon system. It is _extremely_ important to calibrate the system _every day_ before doing experimental tests to garantee a millimeter precision. The main reason is that the cameras are mounted on metallic rails that vibrate due to structural stress caused by all the ongoing activities in the university.
 
 Follow these steps to calibrate the Vicon system \(assuming all the previous steps have been completed\):
 
-1. In the \_Vicon Tracker \_application, navigate to:
-   System &gt; 12\\_Cam\
+1. In the _Vicon Tracker_ application, using the drop-down list, navigate to and select:
+   ```
+   SYSTEM > 12_Cam_Config_Cal
+   ```
+
+   ![](/assets/vicon_tracker_100_hz.PNG)
+
+   This is necessary to change the frequency from 250 Hz to 100 Hz in order to obtain better calibration performances.
+
+2. Navigate to and select:  
+   `CALIBRATE > CREATE CAMERA MASKS > START`  
+   ![](/assets/vicon_tracker_calibration_mask.PNG)
+
+3. Wait a few seconds until all the reflective spots in the flight area become blue \(they are initially white\) and click on _STOP  
+   _**N.B. All the blue spots do no longer belong to the 3D space being monitored by the Vicon system. Make sure that your vehicle will not operate in these areas.**
+
+
 
 
 
