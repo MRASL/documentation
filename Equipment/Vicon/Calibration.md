@@ -18,5 +18,5 @@ If you answered YES to all the questions above, you are now free to proceed to t
 
 ## Using the _Vicon Control_ Mobile App
 
-The [_Vicon Control_](https://www.vicon.com/products/software/vicon-control) mobile app is available for iOS or Android devices. You may dowload it visiting the App Store or Google Play. It allows you do to different things such as playing with the camera and calibration settings. It is mostly usefull for the calibration process as it allows you to view directly on your device \(phone or tablet\) and in real-time the advancement of the calibration process underway.
+The [_Vicon Control_](https://www.vicon.com/products/software/vicon-control) mobile app is available for iOS or Android devices. You may dowload it visiting the [App Store](https://itunes.apple.com/ca/app/vicon-control/id969977655) or [Google Play](https://play.google.com/store/apps/details?id=com.vicon.control). It allows you do to different things such as playing with the camera and calibration settings. It is mostly usefull for the calibration process as it allows you to view directly on your device \(phone or tablet\) and in real-time the advancement of the calibration process underway.
 
