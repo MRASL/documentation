@@ -63,7 +63,9 @@ Follow these steps to use the _Vicon Control_ mobile app during the calibration 
 13. \[_Optional_\] Click on _Connect_
 
 14. \[_Optional_\] A pop-up should come up on the Vicon PC
+
 15. \[_Optional_\] Clock on _Allow_ to authorize the new connection
+16. You are now ready to use the _Vicon Control_ app to navigate through the different camera views
 
 
 
