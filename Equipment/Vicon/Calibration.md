@@ -35,12 +35,14 @@ Follow these steps to use the _Vicon Control_ mobile app during the calibration 
 4. The WiFi network _mrasl_ should now be discoverable on your mobile device
 
 5. Login to the _mrasl_ WiFi network using the password that is written on the post-it located on the Asus router
+
 6. Power on the Vicon switches \(connect the two power supply cables\)  
    ![](/assets/poe_switches_front.jpg)![](/assets/poe_switches_back.jpg)
 
 7. Power on the Vicon PC
 
 8. Launch the _Vicon Tracker_ application \(the green shortcut is situated on the desktop\)  
+  
    ![](/assets/vicon_shortcut.PNG)
 
 9. Choose the _3D Perspective_ view in the drop-down list  
@@ -51,10 +53,11 @@ Follow these steps to use the _Vicon Control_ mobile app during the calibration 
 
 11. Open the _Vicon Control_ app on your mobile device
 
-12. Select _Connect Manually_ and enter the following info:
-    1. _Server IP_: 132.207.24.6 \(this is the Vicon's static IP address\)
-    2. _Data Stream Port_: 801
+12. Select _Connect Manually_ and enter the following info:  
+    1. _Server IP_: 132.207.24.6 \(this is the Vicon's static IP address\)  
+    2. _Data Stream Port_: 801  
     3. _Control Stream Port_: 803
+
 13. Click on _Connect_
 14. A pop-up should come up on the Vicon PC
 15. Clock on _Allow_ to authorize the new connection
