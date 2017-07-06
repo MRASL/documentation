@@ -6,6 +6,8 @@ Ask [Olivier Gougeon](mailto:olivier.gougeon@polymtl.ca) how to calibrate.
 
 **\[WHAT FOLLOWS IS CURRENTLY BEING EDITED\]**
 
+---
+
 ## Before You Start
 
 The before-you-start-checklist:
@@ -15,6 +17,8 @@ The before-you-start-checklist:
 * Am I in a good mood today? \(If not, you might want to consider NOT doing any experimental tests today...\)
 
 If you answered YES to all the questions above, you are now free to proceed to the next step.
+
+---
 
 ## \[Partially Optional\] Using the _Vicon Control_ Mobile App
 
@@ -74,7 +78,7 @@ This section details the calibration procedure of the Vicon system. It is _extre
 
 Follow these steps to calibrate the Vicon system \(assuming all the previous steps have been completed\):
 
-1. In the _Vicon Tracker _application, navigate to:
+1. In the \_Vicon Tracker \_application, navigate to:
    System &gt; 12\\_Cam\
 
 
