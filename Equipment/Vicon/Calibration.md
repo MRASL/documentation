@@ -10,9 +10,9 @@ Ask [Olivier Gougeon](mailto:olivier.gougeon@polymtl.ca) how to calibrate.
 
 The before-you-start-checklist:
 
-* [ ] Is the floor well covered? \(Undesired reflecting surfaces are your \#1 enemy while using the Vicon system!\)
-* [ ] Are all the objects in the flight area placed in their experimental configuration? \(Mats, tiles, nets, etc.\)
-* [ ] Am I in a good mood today? \(If not, you might want to consider NOT doing any experimental tests today...\)
+* Is the floor well covered? \(Undesired reflecting surfaces are your \#1 enemy while using the Vicon system!\)
+* Are all the objects in the flight area placed in their experimental configuration? \(Mats, tiles, nets, etc.\)
+* Am I in a good mood today? \(If not, you might want to consider NOT doing any experimental tests today...\)
 
 If you answered YES to all the questions above, you are now free to proceed to the next step.
 
