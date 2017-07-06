@@ -20,6 +20,8 @@
     * [Calibration](Equipment/Vicon/Calibration.md)
     * [Usage](Equipment/Vicon/Usage.md)
     * [FAQ](Equipment/Vicon/faq.md)
+    * [\(TODO\) Vicon Tracker](Equipment/Vicon/todo-vicon-tracker.md)
+    * [\(TODO\) ROS](Equipment/Vicon/todo-ros.md)
   * Networking
     * [WiFi](Equipment/Networking/WiFi.md)
   * [Coffee Machine](Equipment/coffee.md)
