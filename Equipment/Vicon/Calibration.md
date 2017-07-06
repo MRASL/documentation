@@ -23,6 +23,8 @@ The [_Vicon Control_](https://www.vicon.com/products/software/vicon-control) mob
 Follow these steps to use the _Vicon Control_ mobile app during the calibration process:
 
 1. Connect the black Asus router to the school's network \(use an ethernet cable and link the blue port from the Asus router to the school's acess point located on the wall next to the Vicon computer\)
+   ![](/assets/vicon_tracker_full.png)
+
 2. \[Optional\] Connect the white UniFi double antenna to the Asus router \(plug the blue ethernet cable from the antenna to one of the available yellow ethernet slots of the Asus router\)
 3. Power on the Asus router \(the switch is located in the back of the router\)
 4. The WiFi network _mrasl_ should now be discoverable on your mobile device
