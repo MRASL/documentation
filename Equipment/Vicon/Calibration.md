@@ -22,7 +22,7 @@ If you answered YES to all the questions above, you are now free to proceed to t
 
 The [_Vicon Control_](https://www.vicon.com/products/software/vicon-control) mobile app is available for iOS or Android devices. You may dowload it visiting the [App Store](https://itunes.apple.com/ca/app/vicon-control/id969977655) or [Google Play](https://play.google.com/store/apps/details?id=com.vicon.control). It allows you do to different things such as playing with the camera and calibration settings. It is mostly usefull for the calibration process as it allows you to view directly on your device \(phone or tablet\) and in real-time the advancement of the calibration process underway.
 
-Follow these steps to use the _Vicon Control_ mobile app during the calibration process:
+Follow these steps to use the _Vicon Control_ mobile app during the calibration procedure:
 
 1. \[_Optional_\] Connect the black Asus router to the school's network \(use an ethernet cable and link the blue port from the Asus router to the school's acess point located on the wall next to the Vicon computer\)  
    ![](/assets/asus_router_front.jpg)  
@@ -65,7 +65,17 @@ Follow these steps to use the _Vicon Control_ mobile app during the calibration 
 14. \[_Optional_\] A pop-up should come up on the Vicon PC
 
 15. \[_Optional_\] Clock on _Allow_ to authorize the new connection
-16. You are now ready to use the _Vicon Control_ app to navigate through the different camera views
+
+16. \[_Optional_\] You are now ready to use the _Vicon Control_ app to navigate through the different camera views \(note that the Vicon system is also ready to be used\)
+
+## Calibration Procedure
+
+This section details the calibration procedure of the Vicon system. It is _extremely_ important to calibrate the system _every day_ before doing experimental tests to garantee a millimeter precision. The main reason is that the cameras are mounted on metallic rails that vibrate due to structural stress caused by all the ongoing activities in the university.
+
+Follow these steps to calibrate the Vicon system \(assuming all the previous steps have been completed\):
+
+1. In the _Vicon Tracker _application, navigate to:
+   System &gt; 12\\_Cam\
 
 
 
