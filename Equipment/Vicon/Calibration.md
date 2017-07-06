@@ -94,7 +94,7 @@ Follow these steps to calibrate the Vicon system \(assuming all the previous ste
    `CALIBRATE > CREATE CAMERA MASKS > START`  
    ![](/assets/vicon_tracker_calibration_mask.PNG)
 
-3. Wait a few seconds until all the reflective spots in the flight area become blue \(they are initially white\) and click on _STOP          
+3. Wait a few seconds until all the reflective spots in the flight area become blue \(they are initially white\) and click on _STOP            
    _**N.B. All the blue spots do no longer belong to the 3D space being monitored by the Vicon system. Make sure that your vehicle will not operate in these **_**dead**_** areas.**
 
 4. Power on the Active Wand and make sure that the 5 lights turn on \(otherwise, you must charge the wand\)  
@@ -103,6 +103,22 @@ Follow these steps to calibrate the Vicon system \(assuming all the previous ste
 5. Navigate to and select:  
    `CALIBRATE > CALIBRATE CAMERAS > START`  
    \`![](/assets/vicon_tracker_calibration_calibrate.PNG)
+
+6. Take the Active Wand and walk in the flight area doing arc-like motions with it over your head. You must pass infront of all the cameras. Make sure that the wand is always visible by at least two cameras.  
+   _Recommended:_ Use the Vicon Control app to visualize in real-time the calibration process.
+
+7. When every camera reaches 2000 wand counts, the calibration process automatically stops and the program goes into the final calculation process. If you look at the _3D Pespective_ camera view, you will now see that the orientation of the 3D flight area is all messed up. You must tell the Vicon system what is the new origin after each calibration process.
+
+8. Place the Active Wand in the middle of the flight area _exactly_ like in the following picture:  
+   ![](/assets/flight_area.jpg)**N.B. Our lab has adopted the convention that the longest wall is facing the X axis and the shortest the Y axis. The ceiling is facing the Z axis. If you change the orientation of the origin, always make sure that you replace it this way before quitting.**
+
+9. Navigate to and select:  
+   `CALIBRATE > SET VOLUME ORIGIN > START`
+
+10. You should see in the _3D Perspective_ camera view that the program has recognized the Active Wand. Cick on _SET ORIGIN. _The orientation of the flight area should now be good.
+
+11. Go back to the first step and this time select:  
+    `SYSTEM > 12_Cam_Config_250Hz`
 
 
 
