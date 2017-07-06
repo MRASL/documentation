@@ -14,7 +14,7 @@ The before-you-start-checklist:
 * [ ] Are all the objects in the flight area placed in their experimental configuration? \(Mats, tiles, nets, etc.\)
 * [ ] Am I in a good mood today?
 
-If you answered YES to all the above questions, you are now free to proceed to the next step.
+If you answered YES to all the questions above, you are now free to proceed to the next step.
 
 ## Using the _Vicon Control_ Mobile App
 
