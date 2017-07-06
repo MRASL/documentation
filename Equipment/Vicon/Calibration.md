@@ -22,18 +22,31 @@ The [_Vicon Control_](https://www.vicon.com/products/software/vicon-control) mob
 
 Follow these steps to use the _Vicon Control_ mobile app during the calibration process:
 
-1. Connect the black Asus router to the school's network \(use an ethernet cable and link the blue port from the Asus router to the school's acess point located on the wall next to the Vicon computer\)
-   ![](/assets/vicon_tracker_full.png)
+1. Connect the black Asus router to the school's network \(use an ethernet cable and link the blue port from the Asus router to the school's acess point located on the wall next to the Vicon computer\)  
+   ![](/assets/asus_router_front.jpg)  
+   ![](/assets/wall_access_point.jpg)
 
-2. \[Optional\] Connect the white UniFi double antenna to the Asus router \(plug the blue ethernet cable from the antenna to one of the available yellow ethernet slots of the Asus router\)
+2. \[Optional\] Connect the white UniFi double antenna to the Asus router \(plug the blue ethernet cable from the antenna to one of the available yellow ethernet slots of the Asus router\)  
+   ![](/assets/unifi_antenna.jpg)
+
 3. Power on the Asus router \(the switch is located in the back of the router\)
+   ![](/assets/asus_router_back.jpg)
+
 4. The WiFi network _mrasl_ should now be discoverable on your mobile device
 5. Login to the _mrasl_ WiFi network using the password that is written on the post-it located on the Asus router
 6. Power on the Vicon switches \(connect the two power supply cables\)
+   ![](/assets/poe_switches_front.jpg)![](/assets/poe_switches_back.jpg)
+
 7. Power on the Vicon PC
 8. Launch the _Vicon Tracker_ application \(the green shortcut is situated on the desktop\)
+   ![](/assets/vicon_shortcut.PNG)
+
 9. Choose the _3D Perspective_ view in the drop-down list
+   ![](/assets/vicon_tracker_3D_perspective.png)
+
 10. Make sure that all of the 12 cameras are green
+    ![](/assets/vicon_tracker_full.png)
+
 11. Open the _Vicon Control_ app on your mobile device
 12. Select _Connect Manually_ and enter the following info:
     1. _Server IP_: 132.207.24.6 \(this is the Vicon's static IP address\)
