@@ -81,6 +81,7 @@ This section details the calibration procedure of the Vicon system. It is _extre
 Follow these steps to calibrate the Vicon system \(assuming all the previous steps have been completed\):
 
 1. In the _Vicon Tracker_ application, using the drop-down list, navigate to and select:
+
    ```
    SYSTEM > 12_Cam_Config_Cal
    ```
@@ -93,10 +94,13 @@ Follow these steps to calibrate the Vicon system \(assuming all the previous ste
    `CALIBRATE > CREATE CAMERA MASKS > START`  
    ![](/assets/vicon_tracker_calibration_mask.PNG)
 
-3. Wait a few seconds until all the reflective spots in the flight area become blue \(they are initially white\) and click on _STOP  
-   _**N.B. All the blue spots do no longer belong to the 3D space being monitored by the Vicon system. Make sure that your vehicle will not operate in these areas.**
+3. Wait a few seconds until all the reflective spots in the flight area become blue \(they are initially white\) and click on _STOP    
+   _**N.B. All the blue spots do no longer belong to the 3D space being monitored by the Vicon system. Make sure that your vehicle will not operate in these **_**dead**_** areas.**
 
-
+4. 
+5. Navigate to and select:  
+   `CALIBRATE > CALIBRATE CAMERAS > START  
+   `![](/assets/vicon_tracker_calibration_calibrate.PNG)
 
 
 
