@@ -2,9 +2,7 @@
 
 **Always recalibrate the Vicon **_**every day**_** before starting to work**.
 
-Ask [Olivier Gougeon](mailto:olivier.gougeon@polymtl.ca) how to calibrate.
-
-**\[WHAT FOLLOWS IS CURRENTLY BEING EDITED\]**
+This guide is currently being validated. Please contact [Olivier Gougeon](mailto:olivier.gougeon@polymtl.ca) for comments or suggestions to improve it.
 
 ---
 
@@ -94,7 +92,7 @@ Follow these steps to calibrate the Vicon system \(assuming all the previous ste
    `CALIBRATE > CREATE CAMERA MASKS > START`  
    ![](/assets/vicon_tracker_calibration_mask.PNG)
 
-3. Wait a few seconds until all the reflective spots in the flight area become blue \(they are initially white\) and click on _STOP              
+3. Wait a few seconds until all the reflective spots in the flight area become blue \(they are initially white\) and click on _STOP                
    _**N.B. All the blue spots do no longer belong to the 3D space being monitored by the Vicon system. Make sure that your vehicle will not operate in these **_**dead**_** areas.**
 
 4. Power on the Active Wand and make sure that the 5 lights turn on \(otherwise, you must charge the wand\)  
