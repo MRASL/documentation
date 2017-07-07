@@ -22,7 +22,7 @@ If you answered YES to all the questions above, you are now free to proceed to t
 
 **N.B. Some of the steps provided in this section are specific to the usage of the **_**Vicon Control**_** mobile app and are therefore **_**optional**_**. All of the other steps must be done to be able to use the Vicon system.**
 
-The [_Vicon Control_](https://www.vicon.com/products/software/vicon-control) mobile app is available for iOS or Android devices. You may dowload it visiting the [App Store](https://itunes.apple.com/ca/app/vicon-control/id969977655) or [Google Play](https://play.google.com/store/apps/details?id=com.vicon.control). It allows you do to different things such as playing with the camera and calibration settings. It is mostly usefull for the calibration process as it allows you to view directly on your device \(phone or tablet\) and in real-time the advancement of the calibration process underway.
+The [_Vicon Control_](https://www.vicon.com/products/software/vicon-control) mobile app is available for iOS or Android devices. You may dowload it visiting the [App Store](https://itunes.apple.com/ca/app/vicon-control/id969977655) or [Google Play](https://play.google.com/store/apps/details?id=com.vicon.control). It allows you do to different things such as playing with the camera and calibration settings. It is mostly useful for the calibration process as it allows you to view directly on your device \(phone or tablet\) and in real-time the advancement of the calibration process underway.
 
 Follow these steps to use the _Vicon Control_ mobile app during the calibration procedure:
 
@@ -92,7 +92,7 @@ Follow these steps to calibrate the Vicon system \(assuming all the previous ste
    `CALIBRATE > CREATE CAMERA MASKS > START`  
    ![](/assets/vicon_tracker_calibration_mask.PNG)
 
-3. Wait a few seconds until all the reflective spots in the flight area become blue \(they are initially white\) and click on _STOP                  
+3. Wait a few seconds until all the reflective spots in the flight area become blue \(they are initially white\) and click on _STOP                    
    _**N.B. All the blue spots do no longer belong to the 3D space being monitored by the Vicon system. Make sure that your vehicle will not operate in these **_**dead**_** areas.**
 
 4. Power on the Active Wand and make sure that the 5 lights turn on \(otherwise, you must charge the wand\)  
@@ -113,7 +113,7 @@ Follow these steps to calibrate the Vicon system \(assuming all the previous ste
 9. Navigate to and select:  
    `CALIBRATE > SET VOLUME ORIGIN > START`
 
-10. You should see in the _3D Perspective_ camera view that the program has recognized the Active Wand. Cick on _SET ORIGIN. _The orientation of the flight area should now be good.
+10. You should see in the _3D Perspective_ camera view that the program has recognized the Active Wand. Cick on \_SET ORIGIN. \_The orientation of the flight area should now be good.
 
 11. Go back to the first step and this time select:  
     `SYSTEM > 12_Cam_Config_250Hz`
