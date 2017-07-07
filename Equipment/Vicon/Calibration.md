@@ -28,7 +28,7 @@ Follow these steps to use the _Vicon Control_ mobile app during the calibration 
 
 1. \[_Optional_\] Connect the black Asus router to the school's network \(use an ethernet cable and link the blue port from the Asus router to the school's acess point located on the wall next to the Vicon computer\)  
    ![](/assets/asus_router_front.jpg)  
-   ![](/assets/wall_access_point.jpg)This is a test.
+   ![](/assets/wall_access_point.jpg)**N.B. The `0257` port is not activated. Please refer to the list of activated ports displayed on the post board located at the entrance of the lab.**
 
 2. \[_Optional_\] Connect the white UniFi double antenna to the Asus router \(plug the blue ethernet cable from the antenna to one of the available yellow ethernet slots of the Asus router\)  
    ![](/assets/unifi_antenna.jpg)
@@ -92,7 +92,7 @@ Follow these steps to calibrate the Vicon system \(assuming all the previous ste
    `CALIBRATE > CREATE CAMERA MASKS > START`  
    ![](/assets/vicon_tracker_calibration_mask.PNG)
 
-3. Wait a few seconds until all the reflective spots in the flight area become blue \(they are initially white\) and click on _STOP                      
+3. Wait a few seconds until all the reflective spots in the flight area become blue \(they are initially white\) and click on _STOP                        
    _**N.B. All the blue spots do no longer belong to the 3D space being monitored by the Vicon system. Make sure that your vehicle will not operate in these **_**dead**_** areas.**
 
 4. Power on the Active Wand and make sure that the 5 lights turn on \(otherwise, you must charge the wand\)  
