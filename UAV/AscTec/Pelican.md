@@ -2,6 +2,8 @@
 
 **FYI:** _This page is currently under construction._
 
+![](/assets/asctec_pelican.jpg)
+
 ---
 
 ## Onboard Hardware
