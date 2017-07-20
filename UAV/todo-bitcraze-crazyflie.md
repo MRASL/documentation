@@ -2,7 +2,7 @@
 
 ![](/assets/crazyflie 2.0.jpg)
 
-#### Overview
+## Overview
 
 The Crazyflie 2.0 is an open-source micro-quadrotor created by Bitcraze. It can be controlled with a remote control device using a premade client or by an external program via the crazyradio PA dongle. For more information on the specifications of the crazyflie 2.0 see Ben Landry's Master's thesis:
 
@@ -56,6 +56,10 @@ If you want to control your crazyflie over ROS, there are a few steps you must f
 * individual motor control......
 * accelerometer reading for EKF......
 * Changing attitude controller gains.....
+
+### Bypassing the Barometer Sensor
+
+Blah blah
 
 ......
 
