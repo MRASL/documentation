@@ -26,6 +26,12 @@ When Communicating with R.O.S. It returns:
 
 Unfortunately it does not automatically return the values of the other on-board accelerometers and gyros that could be useful in the estimation of the position and velocity of the quadrotor.
 
+## Machines in the Lab
+
+There are 3 crazyflies in the lab. 
+
+Please note that the barometer sensor of one of them \(identificator?\) dosn't work anymore. If you use it with the official firmware, the self-tests that are automatically launched when you power on the crazyflie will fail, because of this dysfunctional sensor. However, it is possible to use it anyway, by bypassing the defective sensor. There is a firmware which do that, you can find more information in the "Possible Firmwzre Mods" section, below.
+
 ## Getting Started
 
 The Bitcraze website has some very useful pages and tutorials when you're starting out with the crazyflie 2.0. They can be found here:
@@ -59,7 +65,7 @@ If you want to control your crazyflie over ROS, there are a few steps you must f
 
 ### Bypassing the Barometer Sensor
 
-Blah blah
+You can download [this firmware](https://forum.bitcraze.io/download/file.php?id=403) and update it in the crazyflie to bypass the barometer sensor and use a crazyflie with a defective sensor.
 
 ......
 
