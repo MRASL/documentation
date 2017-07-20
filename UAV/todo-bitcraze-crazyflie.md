@@ -19,7 +19,7 @@ tests have shown that the equilibrium value of thrust for the crazyflie in stead
 
 Note that if the controller you've designed controls for individual rotor speeds, you'll have to either restructure your controller or completely rework the quad's firmware \(possible but complicated and might produce limited results. more on that later\).
 
-When Communicating with R.O.S. It returns:
+When Communicating with R.O.S. it returns:
 
 * Commanded individual rotor speeds
 * Yaw, Pitch Roll rates and angles in deg/sec and deg
@@ -28,7 +28,7 @@ Unfortunately it does not automatically return the values of the other on-board 
 
 ## Machines in the Lab
 
-There are 3 crazyflies in the lab. 
+There are 3 crazyflies in the lab.
 
 Please note that the barometer sensor of one of them \(identificator?\) dosn't work anymore. If you use it with the official firmware, the self-tests that are automatically launched when you power on the crazyflie will fail, because of this dysfunctional sensor. However, it is possible to use it anyway, by bypassing the defective sensor. There is a firmware which do that, you can find more information in the "Possible Firmwzre Mods" section, below.
 
