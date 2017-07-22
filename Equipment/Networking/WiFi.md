@@ -1,4 +1,5 @@
 # WiFi equipment
+> **Info** July 22nd 2017 there will soon be a new wifi setup with two TP-Link EAP220 access points ceiling mounted in the flight area. More info to come as it is setup. We might even keep the Asus router in the network just for extra redundancy.
 
 The lab has the following Wifi equipment:
 
