@@ -27,8 +27,8 @@
   * M.Sc.A. student under the supervision of Prof. Saussié
   * _Research subject:_ Quadcopter with robotic arm
 * **Justin Cano**
-  * M.Sc.A student under the supervision of Prof. Le Ny
+  * M.Sc.A. student under the supervision of Prof. Le Ny
   * _Research subject:_ Ultra-wideband \(UWB\)
 * **Jérémie Pilon**
-  * B.Ing. student under the supervision of Prof. Saussié
+  * M.Sc.A. student under the supervision of Prof. Saussié
   * _Research subject:_ Adaptive control
