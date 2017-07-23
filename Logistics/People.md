@@ -17,9 +17,6 @@
 * **André Phu-Van Nguyen**
   * M.Sc.A. student under the supervision of Profs. Le Ny & Saussié
   * _Research subject:_ Autonomous inspection of wind turbines using micro aerial vehicles
-* **Juliette Tibayrenc**
-  * M.Sc.A. student under the supervision of Profs. Le Ny
-  * _Research subject:_ Path planning for robots using Monte Carlo
 * **Dang Quang Nguyen**
   * M.Sc.A. student under the supervision of Prof. Le Ny
   * _Research subject:_ Collaborative control of a smart wheel chair with obstacle avoidance
