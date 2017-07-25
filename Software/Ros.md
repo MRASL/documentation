@@ -170,13 +170,13 @@ References:
 
 ## Topics vs Services vs Actionlib vs Parameters vs Dynamic Parameters
 
-Refer to [ROS Patterns - Communication](http://wiki.ros.org/ROS/Patterns/Communication#Topics_vs_Services_vs_Actionlib…).
+Refer to [ROS Patterns - Communication](http://wiki.ros.org/ROS/Patterns/Communication#Topics_vs_Services_vs_Actionlib...).
 
 Summary:
 
-- Use topics for publishing continuous streams of data, e.g. sensor data, continuous detection results, …
+- Use topics for publishing continuous streams of data, e.g. sensor data, continuous detection results, ...
 - Use services only for short calculations.
-- Use actions for all longer running processes, e.g. grasping, navigation, perception, …
+- Use actions for all longer running processes, e.g. grasping, navigation, perception, ...
 - Use parameters for values which are known at launch and are not likely to change during run time.
 - Use dynamic parameters (`dynamic_reconfigure`) for parameter which are likely to change during run time.
 
@@ -313,7 +313,7 @@ Keep your dependencies clean:
 
 ## Startup Order
 
-Do not require a specific startup order for nodes. Use `waitForService`, `waitForTransform`, `waitForServer`, …
+Do not require a specific startup order for nodes. Use `waitForService`, `waitForTransform`, `waitForServer`, ...
 
 ## Roslaunch Organization
 
@@ -323,7 +323,7 @@ Refer to [Roslaunch tips for large projects](http://wiki.ros.org/roslaunch/Tutor
 
 ## Printing Messages/Logging
 
-- Use rosconsole utilities for logging(`ROS_INFO`,`ROS_DEBUG`, …).
+- Use rosconsole utilities for logging(`ROS_INFO`,`ROS_DEBUG`, ...).
 - Use appropriate console logging: Debug, info, warn, error, fatal.
 - Provide introspection/debug topics.
 
@@ -341,7 +341,7 @@ To avoid computational overhead for topics which no nodes are subscribed to, che
 
 * Recording of a bag:
 
-		rosbag record <topic> <topic> …
+		rosbag record <topic> <topic> ...
 
 * Play a bag:
 
@@ -361,7 +361,7 @@ References:
 
 ## Time
 
-Use `ros::Time`, `ros::Duration`, and `ros::Rate` instead of system time.
+Use `ros::Time`, `ros::Duration`, and `ros::Rate` instead of system time.
 
 ## Converting Between ROS Messages and Other Types
 
