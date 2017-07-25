@@ -1,4 +1,4 @@
-> **Info** Since there is an astounding amount of information out there, for now we copy the page https://github.com/ethz-asl/ros_best_practices/wiki into our own documentation. The best way to learn ROS is probably to start with official tutorials.
+> **Info** Since there is an astounding amount of information out there, for now we copy the [ROS best practices page](https://github.com/ethz-asl/ros_best_practices/wiki) into our own documentation. The best way to learn ROS is probably to start with official tutorials.
 
 # ROS Best Practices
 
