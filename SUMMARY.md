@@ -23,6 +23,7 @@
     * [\(TODO\) Vicon Tracker](Equipment/Vicon/todo-vicon-tracker.md)
     * [\(TODO\) ROS](Equipment/Vicon/todo-ros.md)
   * Networking
+    * [LAN](Equipment/Networking/LAN.md)
     * [WiFi](Equipment/Networking/WiFi.md)
   * [Coffee Machine](Equipment/coffee.md)
 * Software

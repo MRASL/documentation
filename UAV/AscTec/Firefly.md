@@ -20,4 +20,4 @@ This should turn on link aggregation and has worked once in the past.
 ## I'm connected to Wifi but I can't ping anything in the network
 Check how you configured your network adapters. Clearpath sent us the Fireflys with a static IP on the (always on) ethernet adapter. This allows ROS to work even when not connected to a network. If this IP is on the same subnet as the Wifi adapter, all your packets will go through your unplugged ethernet.
 
-Currently the only workaround we know of is to have both adapters on different subnets e.g. `192.168.2.xxx` and `192.168.1.xxx`.
+To get around this see our [networking page](/Equipment/Networking/LAN.md) on dealing with multiple interfaces on the same subnet.
