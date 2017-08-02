@@ -30,7 +30,7 @@ Unfortunately it does not automatically return the values of the other on-board 
 
 There are 3 crazyflies in the lab.
 
-Please note that the barometer sensor of one of them \(identificator?\) dosn't work anymore. If you use it with the official firmware, the self-tests that are automatically launched when you power on the crazyflie will fail, because of this dysfunctional sensor. However, it is possible to use it anyway, by bypassing the defective sensor. There is a firmware which do that, you can find more information in the "Possible Firmwzre Mods" section, below.
+Please note that the barometer sensor of one of them \(identificator?\) dosn't work anymore. If you use it with the official firmware, the self-tests that are automatically launched when you power on the crazyflie will fail, because of this dysfunctional sensor. However, it is possible to use it anyway, by bypassing the defective sensor. There is a firmware which do that, you can find more information in the "Possible Firmware Mods" section, below.
 
 ## Getting Started
 
@@ -54,6 +54,31 @@ If you're working in Ubuntu, you will need to set up a udev rule giving read/wri
 If you want to control your crazyflie over ROS, there are a few steps you must follow. If you are unfamiliar with ROS, please see the section dedicated to it in the Software section of the documentation or go through some base tutorials:
 
 [http://wiki.ros.org/ROS/Tutorials](http://wiki.ros.org/ROS/Tutorials)
+
+You can download [this ROS package](https://github.com/whoenig/crazyflie_ros.git) and install it to communicate with the drone.
+
+Once it is installed in a ROS workspace, and you have `source devel/setup.bash`the package in a terminal, you must launch a server before starting the communication with this command :
+
+    roslaunch crazyflie_driver crazyflie_server.launch
+
+While it is running, in another terminal (still with the `source` command), run this command to start communicating with your crazyflie :
+
+    roslaunch crazyflie_driver crazyflie_add.launch 
+
+If you need to select the crazyflie you want to communicate with, you should precise the uri parameter :
+
+    roslaunch crazyflie_driver crazyflie_add.launch uri:=radio://0/80/2M
+
+You can find this information by clicking the `scan` button in the [cfclient](https://github.com/bitcraze/crazyflie-clients-python).
+
+At this step, you are connected with the drone, and you can check the voltage of the battery by subscribing on the `/battery` ROS topic (of type Float32). You can also publish a Twist message on the `cmd_vel` topic to change the angles and the thrust. Yes, you change the euler angles with a velocity command, I don't understand why. Anyway, you can publish the message following this instructions :
+
+* linear.x: pitch [e.g. -30 to 30 degrees]
+* linear.y: roll [e.g. -30 to 30 degrees]
+* linear.z: thrust [10000 to 60000 (mapped to PWM output)]
+* angular.z: yawrate [e.g. -200 to 200 degrees/second]
+
+The thrust level you should publish to hover is around 39000.
 
 .......
 
