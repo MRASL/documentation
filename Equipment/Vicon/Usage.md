@@ -2,11 +2,11 @@
 
 ## Using ROS
 
-### ETHZ's Autonomous Systems Lab VRPN Client
+For all of the following packages use the server IP defined in our [LAN setup page](/Equipment/Networking/LAN.html).
+
+### ETHZ's Autonomous Systems Lab [VRPN Client](https://github.com/ethz-asl/ros_vrpn_client)
 
 Same client used in [Dynamic System Identification, and Control for a cost effective open-source VTOL MAV](https://arxiv.org/pdf/1701.08623.pdf). Provides position, orientation, velocity and angular velocity. Connects to the Vicon server through the Virtual Reality Peripheral Network. Data seems to pass through a Luenberger state observer for position and linear velocity estimation and an Extended Kalman Filter for orientation and angular velocity estimation.
-
-Available on Github [here](https://github.com/ethz-asl/ros_vrpn_client).
 
 ### ETHZ's Autonomous Systems Lab [Vicon Bridge](https://github.com/ethz-asl/vicon_bridge)
 
