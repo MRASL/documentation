@@ -1,14 +1,16 @@
 # WiFi equipment
-> **Info** July 22nd 2017 there will soon be a new wifi setup with two TP-Link EAP220 access points ceiling mounted in the flight area. More info to come as it is setup. We might even keep the Asus router in the network just for extra redundancy.
-
 The lab has the following Wifi equipment:
 
-* Asus RT-AC55U (or similar) Dual band router
-* Ubiquity Unifi AP Outdoor 2.4Ghz
-* Ubiquity AirMax Omnidirectional 2x2 antenna 2.4Ghz (high gain)
+* 1 x Asus RT-AC55U Dual band router
+* 2 x TP-Link EAP220
+* 1 x Ubiquity Unifi AP Outdoor 2.4Ghz
+* 1 x Ubiquity AirMax Omnidirectional 2x2 antenna 2.4Ghz (high gain)
 
 ## Internal setup
-As of April 10th 2017 we have the Asus router on channel 165 of the 5Ghz band with the ssid `mrasl`. Talk to Andre for the password. The school doesn't use channel 165 so it should be free of interference.
+See the [LAN page](Equipment/Networking/LAN.html). Our WiFi network is only on the 5Ghz band to prevent interference with RC receivers and XBee chips. To turn it on, power up the switch with the red ethernet wires and the Asus router.
+
+## Outdoor setup
+The Ubiquiti Antenna and access points are meant to be deployed in outdoor operations when wireless networking is required between a ground station and a drone. You'll probably need a router to act as a dhcp server.
 
 ## General notes on usage
 
