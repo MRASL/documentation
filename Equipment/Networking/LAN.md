@@ -18,7 +18,11 @@ The following table shows the static ip addresses on the network. If you add equ
 | 192.168.1.\[4-10\]    | **Reserved for future network equipment** |
 | 192.168.1.11        | AscTec Firefly Blue (wired)           |
 | 192.168.1.12        | Asctec Firefly Blue (wireless)        |
-| 192.168.1.\[13-20\]   | *Unused*                                |
+| 192.168.1.13        |  *Unused*                             |
+| 192.168.1.14        | Parrot AR Drone 1.0                   |
+| 192.168.1.15        | Parrot AR Drone 1.0                   |
+| 192.168.1.16        | Parrot AR Drone 2.0                   |
+| 192.168.1.\[17-20\]   | *Unused*                                |
 | 192.168.1.21        | AscTec Firefly Green (wired)          |
 | 192.168.1.22        | AscTec Firefly Green (wireless)       |
 | 192.168.1.\[23-30\]   | *Unused*                                |
