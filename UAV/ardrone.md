@@ -65,3 +65,17 @@ Finally, you just have to publish Twist messages on the topic `/goal_vel` while 
     rosrun falkor_ardrone ardrone_control.py
     
 So you can control the AR drone with velocity.
+
+### Control multiple AR Drones
+
+In order to control two or more AR Drones, you can follow [this tutorial](https://github.com/AutonomyLab/ardrone_autonomy/wiki/Multiple-AR-Drones). The three drones which work in the MRASL have already been hacked to connect to the `mrasl_2.4` network. Please see [the LAN documentation](Equipment/Networking/LAN.md) to learn more about it (and especially find the IP address reserved for the AR Drones).
+
+Unfortunately, the AR Drones can only connect to a 2.4GHz wifi network. And it can't connect to a protected network, that's why there is the `mrasl_2.4` network which is secureless.
+
+Once the drone is powered on, connect to it as usual (the ad-hoc network `ardrone-something`), and launch in a terminal :
+
+        echo "./data/wifi.sh" | telnet 192.168.1.1
+        
+Do it with all the drones you want to control, and then connect to the `mrasl_2.4` network. You should can ping them with their IP address. Then you just have to precise the IP address when you connect to a drone, for instance :
+
+        roslaunch ardrone_autonomy ardrone.launch ip:=192.168.1.14
