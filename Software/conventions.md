@@ -64,8 +64,8 @@ the BSD license.
 ```
 /****************************************************************************
  *
- *   Copyright (c) [year] Mobile Robotics and Autonomous Systems Laboratory (MRASL),
- *   Polytechnique Montreal. All rights reserved.
+ *   Copyright (c) [year] Mobile Robotics and Autonomous Systems Laboratory 
+ *   (MRASL), Polytechnique Montreal. All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions
@@ -77,7 +77,7 @@ the BSD license.
  *    notice, this list of conditions and the following disclaimer in
  *    the documentation and/or other materials provided with the
  *    distribution.
- * 3. Neither the name PX4 nor the names of its contributors may be
+ * 3. Neither the name MRASL nor the names of its contributors may be
  *    used to endorse or promote products derived from this software
  *    without specific prior written permission.
  *
