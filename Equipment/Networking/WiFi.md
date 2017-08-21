@@ -15,8 +15,9 @@ The Ubiquiti Antenna and access points are meant to be deployed in outdoor opera
 ## General notes on usage
 
 * Always shutdown wifi equipment when you're done with it. Technically we aren't allowed to operate our own WiFi network.
+* ***Don't even bother with the 2.4Ghz frequency***. It'll work after office hours and in the morning, but as soon as more people get to school the interference is too much and you'll get inconsistent dropouts.
 * For some reason, the Asus router's wifi connection is a bit flimsy. We usually simply use it as a central wired DHCP server.
-* For a good connection **both** sides must have high gain/high power wireless adapters. That means that if you want to take full advantage of the Ubiquity equipment, you'll have to have another Unifi adapter on the other side.
+* For a good connection **both** sides must have high gain/high power wireless adapters. That means that if you want to take full advantage of the Ubiquity equipment, you'll have to have another Unifi adapter on the other side. It should be overkill to use Ubiquity equipment in the lab though.
 
 ## Notes on WiFi rules at school
 
