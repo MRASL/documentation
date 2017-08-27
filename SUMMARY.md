@@ -37,3 +37,4 @@
   * [Contribute \(Github\)](Logistics/Contribute.md)
   * [Contribute \(Gitbook Editor\)](Logistics/Gitbook.md)
 * [Past Projects](past-projects.md)
+* [Past Team Members](past-teams.md)
