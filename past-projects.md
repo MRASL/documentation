@@ -8,7 +8,7 @@ Our lab is relatively young but we've already accomplished quite a few projects!
   * **Students**:       Duc-Tien Nguyen
   * **Advised by**:     David Saussié
 * [Algorithme de navigation d’une flotte de drones](assets/reports/joris_tiller_2017.pdf)
-  * **Description**:    Summer internship for the development of a leader-follower algorithm implemented in simulation and on Parrot AR Drones and Crazyflies.
+  * **Description**:    Summer internship for the development of a leader-follower algorithm implemented in simulation and on Parrot AR Drones and Crazyflies. The code is available on [Github](https://github.com/TilletJ/leader-follower).
   * **Project type**:   Undergraduate research internship
   * **Students**:       Joris Tillet
   * **Advised by**:     David Saussié  
