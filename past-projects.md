@@ -4,10 +4,15 @@ Our lab is relatively young but we've already accomplished quite a few projects!
 ## 2017
 
 * [Autonomous Landing of a Multirotor Micro Air Vehicle on a High Velocity Ground Vehicle](https://www.youtube.com/watch?v=ILQqD2xQ4tg)
-  * **Description**: While autonomous multirotor micro aerial vehicles (MAVs) are uniquely well suited for certain types of missions benefiting from stationary flight capabilities, their more widespread usage still faces many hurdles, due in particular to their limited range and the difficulty of fully automating their deployment and retrieval. In this paper we address these issues by solving the problem of the automated landing of a quadcopter on a ground vehicle moving at relatively high speed. A preliminary paper is also available on [ArXiv](https://arxiv.org/abs/1611.07329).
-  * **Project type**: Graduate research project
-  * **Students**: Alexandre Borowczyk, Duc-Tien Nguyen, André Phu-Van Nguyen, Dang Quang Nguyen
-  * **Advised by**: David Saussié and Jerome Le Ny
+  * **Description**:    While autonomous multirotor micro aerial vehicles (MAVs) are uniquely well suited for certain types of missions benefiting from stationary flight capabilities, their more widespread usage still faces many hurdles, due in particular to their limited range and the difficulty of fully automating their deployment and retrieval. In this paper we address these issues by solving the problem of the automated landing of a quadcopter on a ground vehicle moving at relatively high speed. A preliminary paper is also available on [ArXiv](https://arxiv.org/abs/1611.07329).
+  * **Project type**:   Graduate research project
+  * **Students**:       Alexandre Borowczyk, Duc-Tien Nguyen, André Phu-Van Nguyen, Dang Quang Nguyen
+  * **Advised by**:     David Saussié and Jerome Le Ny
+* [Algorithme de navigation d’une flotte de drones](assets/reports/joris_tiller_2017.pdf)
+  * **Description**:    Summer internship for the development of a leader-follower algorithm implemented in simulation and on Parrot AR Drones and Crazyflies.
+  * **Project type**:   Undergraduate research internship
+  * **Students**:       Joris Tillet
+  * **Advised by**:     David Saussié  
 
 ## 2016
 * [2016 DJI Developper Challenge](https://youtu.be/Pff9djcMKyw)
