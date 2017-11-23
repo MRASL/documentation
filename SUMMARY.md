@@ -6,6 +6,7 @@
   * Ascending Technologies
     * [Asctec Firefly](UAV/AscTec/Firefly.md)
     * [Asctec Pelican](UAV/AscTec/Pelican.md)
+      * [Tutorials](UAV/AscTec/Pelican/tutorials.md)
   * [DJI M100](UAV/DJI/M100.md)
   * [Bitcraze Crazyflie 2.0](UAV/bitcraze-crazyflie.md)
   * [Parrot AR Drone](UAV/ardrone.md)
@@ -38,3 +39,4 @@
   * [Contribute \(Gitbook Editor\)](Logistics/Gitbook.md)
 * [Past Projects](past-projects.md)
 * [Past Team Members](past-teams.md)
+
