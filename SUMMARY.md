@@ -5,6 +5,7 @@
   * [Before you fly](UAV/Safety.md)
   * Ascending Technologies
     * [Asctec Firefly](UAV/AscTec/Firefly.md)
+      * [Tutorials](UAV/AscTec/Firefly_with_Vicon_Tutorial.md)
     * [Asctec Pelican](UAV/AscTec/Pelican.md)
       * [Tutorials](UAV/AscTec/Pelican/tutorials.md)
   * [DJI M100](UAV/DJI/M100.md)
@@ -39,4 +40,3 @@
   * [Contribute \(Gitbook Editor\)](Logistics/Gitbook.md)
 * [Past Projects](past-projects.md)
 * [Past Team Members](past-teams.md)
-
