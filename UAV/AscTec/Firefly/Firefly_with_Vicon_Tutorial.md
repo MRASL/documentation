@@ -25,16 +25,21 @@ $ ping 192.168.1.12
 ```
 $ ssh asctec@192.168.1.12
 ```
-This command will open a ssh channel to the `firefly_blue`.
+This command will open a ssh channel to the `firefly_blue` (default password is `asctec`). If you are using the desktop L5816-18, you can also running the permanent *alias* `$ connect_firefly_blue`.
 
-  * Remote Computer
     * We will use the `firefly_blue` as the ROS master, by setting the **ROS_MASTER_URI** and **ROS_IP** variables to the drone's IP. To change the variables we use the following commands in the remote computer terminal
 ```
 $ export ROS_MASTER_URI=http://192.168.1.12:11311
 $ export ROS_IP=192.168.1.4
 ```
+If you are using the desktop L5816-18, you can also running the permanent *alias* `$ master_firefly_blue`.
   * Firefly's OBC
-    * Kill default nodes on OBC
+    * If you want to implement your own controller, you should kill the default nodes on OBC
+    ```
+    $ rosnode list
+    $ rosnode kill /AsctecProc
+    $ rosnode kill /AutoPilot
+    ```
     * Run the hl_interface
     * Run the msf (filter)
 
