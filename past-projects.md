@@ -2,6 +2,11 @@
 Our lab is relatively young but we've already accomplished quite a few projects!
 
 ## 2017
+* [Robust Self-Scheduled Fault-Tolerant Control of a Quadrotor UAV](https://doi.org/10.1016/j.ifacol.2017.08.1141)
+  * **Description**: This paper presents a complete active fault-tolerant control system with both fault detection and diagnosis (FDD) and FTC. The proposed FTC design is based on gain-scheduling control in the framework of structured H∞ synthesis.
+  * **Project type**: Graduate research project
+  * **Students**: Duc-Tien Nguyen
+  * **Advised by**: David Saussié
 * [A Motion Planning Strategy for the Active Vision-Based Mapping of Ground-Level Structures](https://arxiv.org/abs/1602.06667)
   * **Description**:    This paper presents a strategy to guide a mobile ground robot equipped with a camera or depth sensor, in order to autonomously map the visible part of a bounded three-dimensional structure. We describe motion planning algorithms that determine appropriate successive viewpoints and attempt to fill holes automatically in a point cloud produced by the sensing and perception layer. The emphasis is on accurately reconstructing a 3D model of a structure of moderate size rather than mapping large open environments, with applications for example in architecture, construction and inspection.
   * **Project type**:   Undergraduate research internship (Manikandasriram S.R.) and Graduate research project (Andre Phu-Van Nguyen)
