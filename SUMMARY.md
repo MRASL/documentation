@@ -27,6 +27,7 @@
   * Networking
     * [LAN](Equipment/Networking/LAN.md)
     * [WiFi](Equipment/Networking/WiFi.md)
+  * [Batteries](Equipment/Batteries.md)
   * [Coffee Machine](Equipment/coffee.md)
 * Software
   * [Conventions](Software/conventions.md)
