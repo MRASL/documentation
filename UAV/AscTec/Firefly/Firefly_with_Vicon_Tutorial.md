@@ -4,9 +4,9 @@
   * Simulation: successfull test of your own controller on GAZEBO
   * Packages installed
     * Firefly OBC
-      * [asctec_mav_framework](https://github.com/MRASL/asctec_mav_framework): framework for data aquisition and position control to be used with the highlevel processor of Ascending Technologies helicopters.
-      * [MSF](https://github.com/ethz-asl/ethzasl_msf): Modular framework for multi sensor fusion based  on an Extended Kalman Filter (EKF).
-      * Controller: in this tutorial, we will test the [gain-scheduling controller](https://github.com/MRASL/gsft_control)
+      * [asctec_mav_framework](https://github.com/MRASL/asctec_mav_framework): framework for data aquisition and position control to be used with the highlevel processor of Ascending Technologies helicopters
+      * [MSF](https://github.com/ethz-asl/ethzasl_msf): Modular framework for multi sensor fusion based  on an Extended Kalman Filter
+      * Controller: in this tutorial, the [gain-scheduling controller](https://github.com/MRASL/gsft_control) will be tested
     * Remote Computer
       * [VRPN Client](/Equipment/Vicon/Usage): connects to the Vicon server through the Virtual Reality Peripheral Network; provides position, orientation, velocity and angular velocity.
   * Power on
