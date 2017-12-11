@@ -5,7 +5,7 @@
     * Asus router (WiFi network mrasl)
     * Netgear switch (2 TP-Link Wireless Access Points)
     * 2 Trendnet switches (Vicon cameras)
-  * Firefly
+  * Power on the Firefly
     * Power on the Firefly with an ASCTEC battery fully charged (5000 mAh, 11.1V)
     * Power on the OBC (On-Board Computer)
 
@@ -34,13 +34,17 @@ $ export ROS_IP=192.168.1.4
 ```
 If you are using the desktop L5816-18, you can also running the permanent *alias* `$ master_firefly_blue`.
   * Firefly's OBC
-    * If you want to implement your own controller, you should kill the default nodes on OBC
+    * If you want to implement your own controller, you should kill the default nodes on OBC by running the following commands in the `firefly_blue` terminal
     ```
     $ rosnode list
     $ rosnode kill /AsctecProc
     $ rosnode kill /AutoPilot
     ```
-    * Run the hl_interface
+## Installation the asctec_mav_framework
+
+
+
+    * Run the asc_hl_interface
     * Run the msf (filter)
 
 ## MSF filter
