@@ -61,30 +61,29 @@ If you are using the desktop `L5816-18`, you can also running the permanent *ali
   ```
   This launch file is a copy of the original `asl_vicon.launch` with the node name is `xxx` and the param name is `xxx`
 
+# Init the filter
+Open a `rqt` GUI in a remote computer terminal by typing `$ rqt`
+  * To verify
+      * Menu `Plugins/Introspection/Node Graph`: check node
+      * Menu `Plugins/Topics/Topic Monitor`: check filter input data and their frequency
+        * Data from Vicon: topic `/firefly /xxx`
+        * Data from Firefly: topic `/firefly_blue/imu/xxx`
+
+  * Before init the filter
+      * Menu `Plugins/Topics/Topic Monitor`: topic `xxx`
+      * Menu `Plugins/Visualization/Multiplot`: plot the position, velocity, euler angle and euler rate. If you are using the desktop `L5816-18`, you can open the configuration `xxxx`.
+
   * Init the filter
-
-    Open a `rqt` GUI in a remote computer terminal by typing `$ rqt`.
-
-    Menu `Plugin/Node/xxx`: check node
-
-    Menu `Plugin/Topics monitor/xxxx`: check filter input data
-      * Data from Vicon
-      * Data from Firefly
-
-    Before init the filter
-      * Menu `plot`
-      * Menu `Topics Monitor `
-
-    Menu `Plugin/Configuration/Dynamic Configuration`
-    * Topic `fcu`: chose `POSCTRL_HL` and `EKF`
-    * Topic `core`: click on `core_init_filter`
-
-    Moving the Asctec Firefly: check
-    * Message in the Firefly's OBC terminal
-    * Data
+    * Menu `Plugins/Configuration/Dynamic Reconfigure`
+      * Topic `fcu`: chose `POSCTRL_HL` and `EKF`
+      * Topic `core`: click on `core_init_filter`
+    * Move the drone and check
+      * Message in the Firefly's OBC terminal
+      * Data
 
 ## Running the demos   
   * Before running the controller
+    * RVIZ and RQT
     * Check our [Safety](/UAV/Safety) page
     * Remote control
     * Start the motors
@@ -94,5 +93,7 @@ If you are using the desktop `L5816-18`, you can also running the permanent *ali
       ```
       $ roslaunch gstf_control lqr_controller.launch
       ```
+    * Menu `Plugins/Introspection/Node Graph`: check node
     * **Check the data before active the controller**
     * Active the controller: remote control
+    * Send the reference: menu `Plugins/Topics/Message Publisher`
