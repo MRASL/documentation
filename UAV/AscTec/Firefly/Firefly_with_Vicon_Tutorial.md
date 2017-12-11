@@ -83,12 +83,9 @@ Verify running nodes
     * Filter input from Vicon: topic `/firefly_blue/vrpn_client/raw_transform`, 250Hz
     * Filter input from Firefly: topic `/fcu/imu`, 100Hz
     * Filter output: `msf_core/pose` or `msf_core/odometry`, 100Hz
+  * Menu `Plugins/Visualization/Plot`: plot the position, velocity, ...
   * Menu `Plugins/Introspection/Node Graph`
       ![](/assets/firefly_nodes.png)
-
-Before init the filter
-  * Menu `Plugins/Visualization/Plot`: plot the position, velocity, ...
-  * Menu `Plugins/Topics/Topic Monitor`: check the topic  (filter output and its frequency)
 
 Init the filter
   * Menu `Plugins/Configuration/Dynamic Reconfigure`
