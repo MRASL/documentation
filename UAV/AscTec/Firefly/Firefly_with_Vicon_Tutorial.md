@@ -4,7 +4,7 @@
   * Simulation: successfull test of your own controller on GAZEBO
   * Packages installed
     * Firefly OBC
-      * [asctec_mav_framework](https://github.com/MRASL/asctec_mav_framework): framework for data aquisition and position control to be used with the highlevel processor of Ascending Technologies helicopters
+      * [asctec_mav_framework](https://github.com/MRASL/asctec_mav_framework): framework for data aquisition and position control to be used with the highlevel (HL) processor of Ascending Technologies helicopters
       * [MSF](https://github.com/ethz-asl/ethzasl_msf): Modular framework for multi sensor fusion based  on an Extended Kalman Filter
       * Controller: in this tutorial, the [gain-scheduling controller](https://github.com/MRASL/gsft_control) will be tested
     * Remote Computer
@@ -55,14 +55,14 @@ Setting up the ROS environment: don't forget to run `$ source devel/setup.bash` 
       $ rosnode kill /AsctecProc
       $ rosnode kill /AutoPilot
       ```
-  * Running the Asctec Framework interface and the MSF
+  * Running `/fcu`, `/mv_26805107` nodes (Asctec Framework HL interface) and `/pose_sensor` node (MSF, private name)
     ```
     $ roslaunch asc_hl_interface fcu.launch
     $ roslaunch msf_updates viconpos_sensor.launch
     ```
 
 **Remote Computer**
-  * Running the [VRPN Client](/Equipment/Vicon/Usage.md) node
+  * Running the `/firefly_blue/vrpn_client` node
     ```
     $ roslaunch ros_vrpn_client mrasl_vicon.launch
     ```
@@ -73,28 +73,32 @@ Setting up the ROS environment: don't forget to run `$ source devel/setup.bash` 
         <param name="vrpn_server_ip" value="192.168.1.200" />
   ```
 
-After running these launch files, the MSF will show this message (OBC terminal): `Pose measurement throttling is on, dropping messagesto be below 50.000000 Hz`.
+After running these launch files, the `/pose_sensor` node may show this message (OBC terminal): `Pose measurement throttling is on, dropping messagesto be below 50.000000 Hz`.
 
 # Init the filter
 Open a `rqt` GUI in a remote computer terminal by typing `$ rqt`
 
-To verify
-  * Menu `Plugins/Introspection/Node Graph`: check node
-  * Menu `Plugins/Topics/Topic Monitor`: check filter input data and their frequency
-    * Data from Vicon: topic `/firefly_blue/vrpn_client/estimated_odometry`
-    * Data from Firefly: topic `/fcu/imu`
+Verify running nodes
+  * Menu `Plugins/Topics/Topic Monitor`: check filter input/output data
+    * Filter input from Vicon: topic `/firefly_blue/vrpn_client/raw_transform`, 250Hz
+    * Filter input from Firefly: topic `/fcu/imu`, 100Hz
+    * Filter output: `msf_core/pose` or `msf_core/odometry`, 100Hz
+  * Menu `Plugins/Introspection/Node Graph`
+      ![](/assets/firefly_nodes.png)
 
 Before init the filter
-  * Menu `Plugins/Topics/Topic Monitor`: topic `xxx`
-  * Menu `Plugins/Visualization/Multiplot`: plot the position, velocity, euler angle and euler rate. If you are using the desktop `L5816-18`, you can open the configuration `xxxx`.
+  * Menu `Plugins/Visualization/Plot`: plot the position, velocity, ...
+  * Menu `Plugins/Topics/Topic Monitor`: check the topic  (filter output and its frequency)
 
 Init the filter
   * Menu `Plugins/Configuration/Dynamic Reconfigure`
     * `fcu/fcu`: chose `POSCTRL_OFF` for `position_control` and `STATE_EST_OFF` for `state_estimation`
     * `pose_sensor/pose_sensor`: click on `core_init_filter`
   * Move the drone and check
-    * Message in the Firefly's OBC terminal
-    * Filter output: topic `msf_core/odometry`
+
+  ![](/assets/firefly_nodes2.png)
+
+After init the filter, the `/pose_sensor` node has to show this message (OBC terminal): `initial measurement pos:[ 0.158259 0.0267092  0.754158] orientation: [0.998, 0.00129, 0.025, 0.0552]` and some other messages.
 
 ---
 
@@ -109,6 +113,7 @@ Init the filter
 **Running the controller**
   * Running the controller node by typing the following command in a Firefly's OBC terminal
     ```
+    $ source devel/setup.bash
     $ roslaunch gstf_control lqr_controller.launch
     ```
   * Menu `Plugins/Introspection/Node Graph`: check node
