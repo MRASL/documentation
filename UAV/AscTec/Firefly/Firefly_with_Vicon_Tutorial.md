@@ -87,7 +87,7 @@ Verify running nodes
   * Menu `Plugins/Introspection/Node Graph`
       ![](/assets/firefly_nodes.png)
 
-Init the filter
+**Init the filter**
   * Menu `Plugins/Configuration/Dynamic Reconfigure`
     * `fcu/fcu`: chose `POSCTRL_OFF` for `position_control` and `STATE_EST_OFF` for `state_estimation`
     * `pose_sensor/pose_sensor`: click on `core_init_filter`
@@ -95,7 +95,7 @@ Init the filter
 
   ![](/assets/firefly_nodes2.png)
 
-After init the filter, the `/pose_sensor` node has to show this message (OBC terminal): `initial measurement pos:[ 0.158259 0.0267092  0.754158] orientation: [0.998, 0.00129, 0.025, 0.0552]` and some other messages.
+After init the filter, the `/pose_sensor` node has to show a message (OBC terminal) as: `initial measurement pos:[ 0.158259 0.0267092  0.754158] orientation: [0.998, 0.00129, 0.025, 0.0552]` and some other messages.
 
 ---
 
