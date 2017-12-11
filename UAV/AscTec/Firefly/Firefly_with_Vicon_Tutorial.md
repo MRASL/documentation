@@ -7,7 +7,14 @@
     * 2 Trendnet switches (Vicon cameras)
   * Power on the Firefly
     * Power on the Firefly with an ASCTEC battery fully charged (5000 mAh, 11.1V)
-    * Power on the OBC (On-Board Computer)
+    * Power on the On-Board Computer (OBC)
+  * Packages
+    * Firefly OBC
+      * [asctec_mav_framework](https://github.com/MRASL/asctec_mav_framework): framework for data aquisition and position control to be used with the highlevel processor of Ascending Technologies helicopters.
+      * [MSF](https://github.com/ethz-asl/ethzasl_msf): Modular framework for multi sensor fusion based  on an Extended Kalman Filter (EKF).
+    * Remote Desktop
+      * [VRPN Client](/Equipment/Vicon/Usage): connects to the Vicon server through the Virtual Reality Peripheral Network; provides position, orientation, velocity and angular velocity.
+  * Check our [Safety](/UAV/Safety) page
 
 ## Vicon
 See our [Vicon page](/Equipment/Vicon/Calibration.md) for more detail.
