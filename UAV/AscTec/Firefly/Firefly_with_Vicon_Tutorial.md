@@ -13,8 +13,8 @@
     * Asus router (WiFi network mrasl)
     * Netgear switch (2 TP-Link Wireless Access Points)
     * 2 Trendnet switches (Vicon cameras)
-    * Power on the Firefly FCU (flight control unit) with an ASCTEC battery fully charged (5000 mAh, 11.1V)
-    * Power on the Firefly's On-Board Computer (OBC)
+    * Firefly's FCU (flight control unit) with an ASCTEC battery fully charged (5000 mAh, 11.1V)
+    * Firefly's On-Board Computer (OBC)
   * Vicon setup: see our [Vicon page](/Equipment/Vicon/Calibration.md) for more detail.
 
 ## Network Setup
