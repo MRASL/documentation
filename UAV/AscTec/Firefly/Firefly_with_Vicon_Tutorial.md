@@ -62,11 +62,18 @@ Setting up the ROS environment: don't forget to run `$ source devel/setup.bash` 
     ```
 
 **Remote Computer**
-  * Running the [VRPN Client](/Equipment/Vicon/Usage.md) node  
+  * Running the [VRPN Client](/Equipment/Vicon/Usage.md) node
     ```
     $ roslaunch ros_vrpn_client mrasl_vicon.launch
     ```
-  This launch file is a copy of the original `asl_vicon.launch` with the node name is `xxx` and the param name is `xxx`
+  This launch file is a copy of the original `asl_vicon.launch`, using for the `firefly_blue` object and the Vicon server IP [192.168.1.200](/Equipment/Networking/LAN.md)
+  ```
+  <arg name="object_name" default="firefly_blue" />
+  <node ns="$(arg object_name)" name="vrpn_client" type="ros_vrpn_client" pkg="ros_vrpn_client" output="screen">
+        <param name="vrpn_server_ip" value="192.168.1.200" />
+  ```
+
+After running these launch files, the MSF will show this message (OBC terminal): `Pose measurement throttling is on, dropping messagesto be below 50.000000 Hz`.
 
 # Init the filter
 Open a `rqt` GUI in a remote computer terminal by typing `$ rqt`
@@ -74,8 +81,8 @@ Open a `rqt` GUI in a remote computer terminal by typing `$ rqt`
 To verify
   * Menu `Plugins/Introspection/Node Graph`: check node
   * Menu `Plugins/Topics/Topic Monitor`: check filter input data and their frequency
-    * Data from Vicon: topic `/firefly /xxx`
-    * Data from Firefly: topic `/firefly_blue/imu/xxx`
+    * Data from Vicon: topic `/firefly_blue/vrpn_client/estimated_odometry`
+    * Data from Firefly: topic `/fcu/imu`
 
 Before init the filter
   * Menu `Plugins/Topics/Topic Monitor`: topic `xxx`
@@ -83,11 +90,11 @@ Before init the filter
 
 Init the filter
   * Menu `Plugins/Configuration/Dynamic Reconfigure`
-    * Topic `fcu`: chose `POSCTRL_HL` and `EKF`
-    * Topic `core`: click on `core_init_filter`
+    * `fcu/fcu`: chose `POSCTRL_OFF` for `position_control` and `STATE_EST_OFF` for `state_estimation`
+    * `pose_sensor/pose_sensor`: click on `core_init_filter`
   * Move the drone and check
     * Message in the Firefly's OBC terminal
-    * Data
+    * Filter output: topic `msf_core/odometry`
 
 ---
 
