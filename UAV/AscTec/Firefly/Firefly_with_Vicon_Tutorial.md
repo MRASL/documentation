@@ -88,6 +88,7 @@ Open a `rqt` GUI in a remote computer terminal by typing `$ rqt`
     * Remote control
     * Start the motors
 
+
   * Running the controller
     * Running the controller node by typing the following command in a Firefly's OBC terminal
       ```
@@ -95,5 +96,16 @@ Open a `rqt` GUI in a remote computer terminal by typing `$ rqt`
       ```
     * Menu `Plugins/Introspection/Node Graph`: check node
     * **Check the data before active the controller**
-    * Active the controller: remote control
-    * Send the reference: menu `Plugins/Topics/Message Publisher`
+    Topic `/firefly/command/motor_speed/angular_velocities` and `/firefly/command/motor_speed/normalized` should **have to be `0.0` for all components**.
+    * Active the controller: change the remote control to autopilot
+
+
+  * Send the reference: menu `Plugins/Topics/Message Publisher`
+      * Add the topic `/firefly/command/pose` by using the button `+`
+      * Change the value of `pose/position/z` to `0.5`
+      * Check the box to publish
+
+
+  * Verify the result: menu `Plugins/Topics/Topic Monitor`
+    * Command: topic `/firefly/command/motor_speed/angular_velocities` and `/firefly/command/motor_speed/normalized`
+    * Output:
