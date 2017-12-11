@@ -19,31 +19,34 @@
 
 ## Network Setup
  Remote monitoring and control the Firefly from a distance computer. In this tutorial, the desktop `L5816-18` and the object `firefly_blue` are used.
-  * IP address: the remote computer and the firefly have to be connected to the **same network** (MRASL). The `firefly_blue` IP is 192.168.1.12](/Equipment/Networking/LAN.md)**. For this tutorial assume that the remote computer IP is **192.168.1.4**. You can check your IP address by typing `ifconfig` in a terminal.
+  * IP address: the remote computer and the firefly have to be connected to the **same network** (MRASL). The `firefly_blue` IP is [192.168.1.12](/Equipment/Networking/LAN.md). For this tutorial assume that the remote computer IP is **192.168.1.4**. You can check your IP address by typing `ifconfig` in a terminal.
 
-  * Remote monitoring and control the Firefly from a distance computer
-    *  Check the connectivity between the remote computer and the `firefly_blue`  by running the following command in a remote computer terminal:    
+  * Remote monitoring and control of the Firefly from a distance computer
+    *  Check the connectivity between the remote computer and the `firefly_blue`  by running the following command in a remote computer terminal
 ```
 $ ping 192.168.1.12
 ```
-    * To log into the Firefly's OBC we use the following commands:
+    * To log into the Firefly's OBC we use the following commands
 ```
 $ ssh asctec@192.168.1.12
 ```
-This command will open a ssh channel to the `firefly_blue` (default password is `asctec`). If you are using the desktop `L5816-18`, you can also running the permanent *alias* `$ connect_firefly_blue`.
+This command will open a ssh channel to the `firefly_blue` (default password is `asctec`). If you are using the desktop L5816-18, you can also running the permanent *alias* `$ connect_firefly_blue`.
 
     * We will use the `firefly_blue` as the ROS master, by setting the **ROS_MASTER_URI** and **ROS_IP** variables to the drone's IP. To change the variables we use the following commands in the remote computer terminal
 ```
 $ export ROS_MASTER_URI=http://192.168.1.12:11311
 $ export ROS_IP=192.168.1.4
 ```
-If you are using the desktop `L5816-18`, you can also running the permanent *alias* `$ master_firefly_blue`.
+If you are using the desktop L5816-18, you can also running the permanent *alias*
+```
+$ master_firefly_blue
+```
 
 ## Before your fly   
-  * Setting up the ROS environment: don't forget to run `$ source devel/setup.bash` in each terminal before continue with the following subsections. If you are using the desktop `L5816-18` and the `firefly_blue`, you can also running the permanent *alias* `$ gotien`.
+  * Setting up the ROS environment: don't forget to run `$ source devel/setup.bash` in each terminal before continue with the following subsections. If you are using the the `firefly_blue` and the desktop L5816-18, you can also running the permanent *alias* `$ gotien`.
 
   * Firefly's OBC terminal
-    *  If you want to implement your own controller, you should list and kill the default nodes on OBC by running the following commands in the `firefly_blue` terminal
+    *  If you want to implement your own controller, you should list and kill all default nodes on OBC by running the following commands
       ```
       $ rosnode list
       $ rosnode kill /AsctecProc
@@ -55,7 +58,7 @@ If you are using the desktop `L5816-18`, you can also running the permanent *ali
     $ roslaunch msf_updates viconpos_sensor.launch
     ```
 
-  * Remote Computer terminal: running the [VRPN Client](/Equipment/Vicon/Usage) node  
+  * Remote Computer terminal: running the [VRPN Client](/Equipment/Vicon/Usage.md) node  
   ```
   $ roslaunch ros_vrpn_client mrasl_vicon.launch
   ```
