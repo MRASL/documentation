@@ -15,7 +15,7 @@
   * [Clearpath Husky](UGV/Husky/Husky.md)
     * [Usage](UGV/Husky/Usage.md)
   * [iRobot Create](UGV/Create/Usage.md)
-* Other Robots
+* [Other Robots](other-robots.md)
   * [Kinova Mico Arm](Other/Mico/Mico.md)
 * [Equipment](equipment.md)
   * [Vicon](vicon.md)
@@ -41,3 +41,4 @@
   * [Contribute \(Gitbook Editor\)](Logistics/Gitbook.md)
 * [Past Projects](past-projects.md)
 * [Past Team Members](past-teams.md)
+
