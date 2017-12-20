@@ -96,19 +96,15 @@ As previously stated you can find all the informations on the datas, their type,
 
 ### Vicon sensors via ROS
 
-**From early November 2017 to late December support still "under going maintenance" **
+**The distribution installed on the Pelican is ROS Jade and you can issues dye to the lack of support**
 
-To fly by using ROS a [framework](https://github.com/ethz-asl/asctec_mav_framework) is made available by the ASL of the ETH Zurich. The interface package will be the one interresting us the most. It will communicate to the HLP the data from the VICON by subscribing to different ROS topics. 
+To fly by using ROS a [framework](https://github.com/ethz-asl/asctec_mav_framework) is made available by the ASL of the ETH Zurich. The interface package will be the one interresting us the most. It will communicate to the HLP the data from the VICON by subscribing to different ROS topics.
 
 They also adapted the firmware to update datas received by ROS
-
-
 
 **TODO**
 
 **Instruction and dependences to install in are given but updates and other not specified ones may be requireds **
-
-
 
 ## Compile and transfer
 
