@@ -104,11 +104,9 @@ They also adapted the firmware to update datas received by ROS
 
 **TODO**
 
-**Instruction and dependences to install are given but updates and other dependences not specified may be required**
+**Instruction and dependences to install are given but updates and other dependences not specified may be required.**
 
-Note : if the compilation fail for "mav_msgs/RollPitchYawrateThrust.h: No such file or directory" add to your sources _[_mav\__comm](https://github.com/ethz-asl/mav_comm)
-
-
+Note : if the compilation fail for "mav_msgs/RollPitchYawrateThrust.h: No such file or directory" add to your sources _[\_mav\_\_comm](https://github.com/ethz-asl/mav_comm)
 
 ## Compile and transfer
 
