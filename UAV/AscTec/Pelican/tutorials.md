@@ -50,7 +50,7 @@ void SDK_EXAMPLE_POSITION(void)
 
 This exemple will change the speed of the motor 3 in function of the angle pitch \(Note : for the firefly only the number of motors would change from 0..3 to 0..5.\).
 
-We first set the type of control we are going to do, here it's a direft individual control. After we allow the control by the High Level processor, set to 0 others motors\(facultative\) and finally our tests with the set of the motor commands.
+We first set the type of control we are going to do, here it's a direct individual control. After we allow the control by the High Level processor, set to 0 others motors\(facultative\) and finally our tests with the set of the motor commands.
 
 The following example is directly given from the SDK, on this one we check the good control and also the access to the data from the controler.
 
@@ -96,7 +96,7 @@ As previously stated you can find all the informations on the datas, their type,
 
 ### Vicon sensors via ROS
 
-**The distribution installed on the Pelican is ROS Jade and you can issues dye to the lack of support. **
+**The distribution installed on the Pelican is ROS Jade and you can issues due to the lack of support. **
 
 To fly by using ROS a [framework](https://github.com/ethz-asl/asctec_mav_framework) is made available by the ASL of the ETH Zurich. The interface package will be the one interresting us the most. It will communicate to the HLP the data from the VICON by subscribing to different ROS topics.
 
