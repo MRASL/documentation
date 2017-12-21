@@ -96,7 +96,7 @@ As previously stated you can find all the informations on the datas, their type,
 
 ### Vicon sensors via ROS
 
-**The distribution installed on the Pelican is ROS Jade and you can issues dye to the lack of support**
+**The distribution installed on the Pelican is ROS Jade and you can issues dye to the lack of support. **
 
 To fly by using ROS a [framework](https://github.com/ethz-asl/asctec_mav_framework) is made available by the ASL of the ETH Zurich. The interface package will be the one interresting us the most. It will communicate to the HLP the data from the VICON by subscribing to different ROS topics.
 
@@ -104,7 +104,11 @@ They also adapted the firmware to update datas received by ROS
 
 **TODO**
 
-**Instruction and dependences to install in are given but updates and other not specified ones may be requireds **
+**Instruction and dependences to install are given but updates and other dependences not specified may be required**
+
+Note : if the compilation fail for "mav_msgs/RollPitchYawrateThrust.h: No such file or directory" add to your sources _[_mav\__comm](https://github.com/ethz-asl/mav_comm)
+
+
 
 ## Compile and transfer
 
