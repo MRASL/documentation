@@ -8,6 +8,7 @@
       * [Tutorials](UAV/AscTec/Firefly/Firefly_with_Vicon_Tutorial.md)
     * [Asctec Pelican](UAV/AscTec/Pelican.md)
       * [Tutorials](UAV/AscTec/Pelican/tutorials.md)
+      * [ROS issues](UAV/AscTec/Pelican/ros-issues.md)
   * [DJI M100](UAV/DJI/M100.md)
   * [Bitcraze Crazyflie 2.0](UAV/bitcraze-crazyflie.md)
   * [Parrot AR Drone](UAV/ardrone.md)
