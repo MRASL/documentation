@@ -28,6 +28,7 @@
   * Networking
     * [LAN](Equipment/Networking/LAN.md)
     * [WiFi](Equipment/Networking/WiFi.md)
+    * [FAQ_Network](Equipment/Networking/faq.md)
   * [Batteries](Equipment/Batteries.md)
   * [Coffee Machine](Equipment/coffee.md)
 * Software
@@ -42,4 +43,3 @@
   * [Contribute \(Gitbook Editor\)](Logistics/Gitbook.md)
 * [Past Projects](past-projects.md)
 * [Past Team Members](past-teams.md)
-
