@@ -30,6 +30,6 @@
   * Connect your laptop (wire/wireless) and the Vicon server (wire) to the MRASL's local network.
   * Vicon server: run Vicon tracker 3.4
   * Personnal laptop:
-    * Install
-    * Run 
+    * Install ...
+    * Run ...
   * Power on the Active Wand and walk in the flight area. You should
