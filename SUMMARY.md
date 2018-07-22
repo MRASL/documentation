@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [Laboratory Regulations](Laboratory.md)
 * [Aerial Vehicles](aerial-vehicles.md)
   * [Before you fly](UAV/Safety.md)
   * [Ascending Technologies](UAV/ascending-technologies.md)
@@ -9,6 +10,7 @@
     * [Asctec Pelican](UAV/AscTec/Pelican.md)
       * [Tutorials](UAV/AscTec/Pelican/tutorials.md)
       * [To fix](UAV/AscTec/Pelican/ros-issues.md)
+    * [Asctec Onboard Computer](UAV/AscTec/OBC.md)
   * [DJI M100](UAV/DJI/M100.md)
   * [Bitcraze Crazyflie 2.0](UAV/bitcraze-crazyflie.md)
   * [Parrot AR Drone](UAV/ardrone.md)
