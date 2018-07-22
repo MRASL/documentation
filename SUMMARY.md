@@ -28,7 +28,6 @@
   * Networking
     * [LAN](Equipment/Networking/LAN.md)
     * [WiFi](Equipment/Networking/WiFi.md)
-    * [FAQ_Network](Equipment/Networking/faq.md)
   * [Batteries](Equipment/Batteries.md)
   * [Coffee Machine](Equipment/coffee.md)
 * Software
@@ -37,6 +36,7 @@
   * [Unix](Software/Unix.md)
   * [MATLAB/Simulink](Software/todo-matlab.md)
   * [ROS](Software/Ros.md)
+* [FAQ](faq.md)
 * Logistics
   * [Personnel](Logistics/People.md)
   * [Contribute \(Github\)](Logistics/Contribute.md)

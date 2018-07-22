@@ -27,9 +27,21 @@
     Repeat for the *MRASL LAN* connection (Lower Priority Connection), but this time put 20 into the 'Interface Metric'.
 
 ## How can I check the connection between my personnal laptop and the Vicon server via MRASL's local network?
+1. Check Vicon cameras using Vicon Control mobile app: see our [Vicon page](/Equipment/Vicon/Calibration.md)
+2. Check Vicon data and connection using Vicon DataStream SDK
   * Connect your laptop (wire/wireless) and the Vicon server (wire) to the MRASL's local network.
   * Vicon server: run Vicon tracker 3.4
   * Personnal laptop:
-    * Install ...
-    * Run ...
-  * Power on the Active Wand and walk in the flight area. You should
+    * Install Vicon DataStream SDK
+    * Open a terminal and go to the installed folder, e.g. C:\Program Files\Vicon\DataStream SDK\Win64\SimpleViewer
+    ![](/assets/ViconSDK.png)     
+    * Run the SimpleViewer application     
+```
+$ ViconDataStreamSDK_SimpleViewer.exe 192.168.1.200
+```
+After the connection to the Vicon server (192.168.1.200) established,  the SimpleViewer interface will be opened.
+  * Power on the Active Wand and walk in the flight area. You can see the Active Wand object in the SimpleViewer interface. The Vicon data is now ready to be used in your personnal laptop.
+
+## How can I get the Vicon data?
+  * Using ROS: see our [Vicon page](/Equipment/Vicon/Usage.md)
+  * Using Matlab/C/C++/.Net: see the pdf file Vicon_DataStream_SDK_Manual.pdf in the installed folder
