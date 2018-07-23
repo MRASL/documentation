@@ -1,6 +1,6 @@
 Our Asctec UAVs are equipped with Asctec Mastermind onboard computers (Atom 1.66 GHz dual core CPU, 4 GB RAM), running Ubuntu 14.04 and ROS Jade.
 
-# OBC FAQ
+# OBC Frequenctly Asked Questions
 ## How can I use the Asctec OBC with a monitor, mouse and keyboard?
 
 *photo here*
@@ -8,9 +8,19 @@ Our Asctec UAVs are equipped with Asctec Mastermind onboard computers (Atom 1.66
 ## The Astec OBC is not working?
 Check BIOS battery
 
-## ROS and/or Ubuntu are broken. How do I recover the factory image and other configurations (from Clearpath Canada)?
-1. [Recovery Image from Astec](http://wiki.asctec.de/display/AR/Recovery+Images)
-2. Reconfigure network adapters: typing `sudo vim /etc/network/interfaces` in a terminal, then modify the file as follows
+## Wifi keeps dropping out, what gives?
+Each UAVs has an Intel 7260 Wifi adapter and there are a lot of complaints online about instability issues. Try adding to `/etc/modprobe/iwlwifi.conf` the following:
+```
+options iwlwifi 11n_disable=8
+```
+This should turn on link aggregation and has worked once in the past.
+
+## I'm connected to Wifi but I can't ping anything in the network
+Check how you configured your network adapters. Clearpath sent us the UAVs with a static IP on the (always on) ethernet adapter. This allows ROS to work even when not connected to a network. If this IP is on the same subnet as the Wifi adapter, all your packets will go through your unplugged ethernet.
+
+To get around this see our [networking page](/Equipment/Networking/LAN.md) on dealing with multiple interfaces on the same subnet.
+
+* Typing `sudo vim /etc/network/interfaces` in a terminal, then modify this file as follows
 ```
 auto lo
 iface lo inet loopback
@@ -38,9 +48,8 @@ iface wlan0 inet static
     post-up /sbin/iwconfig wlan0 power off # make sure power management is off --> short ping time
     post-up /sbin/route add -net 192.168.1.0 netmask 255.255.255.0 dev wlan0
 ```
-Example: for Asctec Pelican, YOUR_LAN_ADDRESS is 192.168.1.31, YOUR_WLAN_ADDRESS is 192.168.1.32, YOUR_NETWORK is 192.168.1.0, YOUR_GATEWAY is 192.168.1.1, YOUR_SSID is "mrasl" and YOUR_PASSWORD is "saveapril",
-
-  Restart networks:
+  Example: for Asctec Pelican, YOUR_LAN_ADDRESS is 192.168.1.31, YOUR_WLAN_ADDRESS is 192.168.1.32, YOUR_NETWORK is 192.168.1.0, YOUR_GATEWAY is 192.168.1.1, YOUR_SSID is "mrasl" and YOUR_PASSWORD is "saveapril".
+* Restart networks:
 
   ```
   sudo ifdown em1
@@ -51,8 +60,11 @@ Example: for Asctec Pelican, YOUR_LAN_ADDRESS is 192.168.1.31, YOUR_WLAN_ADDRESS
 
   Verify new configurations using `ifconfig`. After`sudo reboot`, the LAN and WLAN IP address should be shown in the LCD screen of the UAV.
 
-  Notes: [basic Vim syntax](https://www.maketecheasier.com/vim-keyboard-shortcuts-cheatsheet/), Esc => go to command mode, :i => insert text, :w => write file, :q => quit
+Notes: [basic Vim syntax](https://www.maketecheasier.com/vim-keyboard-shortcuts-cheatsheet/), Esc => go to command mode, :i => insert text, :w => write file, :q => quit
 
+## ROS and/or Ubuntu are broken. How do I recover the factory image and other configurations (from Clearpath Canada)?
+1. [Recovery Image from Astec](http://wiki.asctec.de/display/AR/Recovery+Images)
+2. Reconfigure network adapters: see the previous question
 3. ROS dependencies: using recovery image from astec, only 'ros-jade-ros-base' is installed.
 ```
 sudo apt install catkin-tools
