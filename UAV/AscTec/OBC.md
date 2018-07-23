@@ -1,4 +1,4 @@
-3 Asctec UAV are equipped with an Asctec Mastermind onboard computer (Atom 1.66 GHz dual core CPU, 4 GB RAM), running Ubuntu 14.04 and ROS Jade.
+Our Asctec UAVs are equipped with Asctec Mastermind onboard computers (Atom 1.66 GHz dual core CPU, 4 GB RAM), running Ubuntu 14.04 and ROS Jade.
 
 # OBC FAQ
 ## How can I use the Asctec OBC with a monitor, mouse and keyboard?
@@ -38,7 +38,7 @@ iface wlan0 inet static
     post-up /sbin/iwconfig wlan0 power off # make sure power management is off --> short ping time
     post-up /sbin/route add -net 192.168.1.0 netmask 255.255.255.0 dev wlan0
 ```
-Example: for Asctec Pelican, YOUR_LAN_ADDRESS is 192.168.1.31, YOUR_WLAN_ADDRESS is 192.168.1.21, YOUR_NETWORK is 192.168.1.0, YOUR_GATEWAY is 192.168.1.1, YOUR_SSID is "mrasl" and YOUR_PASSWORD is "saveapril",
+Example: for Asctec Pelican, YOUR_LAN_ADDRESS is 192.168.1.31, YOUR_WLAN_ADDRESS is 192.168.1.32, YOUR_NETWORK is 192.168.1.0, YOUR_GATEWAY is 192.168.1.1, YOUR_SSID is "mrasl" and YOUR_PASSWORD is "saveapril",
 
   Restart networks:
 
@@ -67,9 +67,6 @@ sudo apt update
 sudo apt upgrade
 sudo reboot
 ```
-```
-sudo apt install ros-jade-dynamic-reconfigure ros-jade-mav-msgs
-```
 Note: from Ubuntu 14, `apt-get` is replaced by `apt`. Use `apt-cache search` for searching apt software packages, e.g. `apt-cache search catkin` => install `python-catkin-tools`.
 
 
@@ -97,7 +94,6 @@ Note: from Ubuntu 14, `apt-get` is replaced by `apt`. Use `apt-cache search` for
   source devel/setup.bash
   ```
   Note: use `git branch --help` and `git branch --list` for more information.
-  : install, branch, rate, etc (article ICUAS18)
   * [Change asctec_hl_interface configuration for faster communcation](http://wiki.ros.org/asctec_mav_framework/Tutorials/onboard_computer_setup)
     Downloads this file [09_config_serial](http://wiki.ros.org/asctec_mav_framework/Tutorials/onboard_computer_setup?action=AttachFile&do=view&target=09_config_serial)
     ```
@@ -168,7 +164,7 @@ Note: from Ubuntu 14, `apt-get` is replaced by `apt`. Use `apt-cache search` for
     souce devel/setup.bash
     roslaunch asctec_hl_interface/launch/fcu.launch
     ```
-  * Sent motor command in range 1 to 200: make sure that the propeller **are not** mounted
+  * Sent motor command in range 1 to 200: make sure that the **PROPELLERS ARE NOT MOUNTED**
     ```
     rostopic pub -r 100 /fcu/command/direct_motor mav_msgs/Actuators "header:
       seq: 0
@@ -180,3 +176,5 @@ Note: from Ubuntu 14, `apt-get` is replaced by `apt`. Use `apt-cache search` for
       angular_velocities: -0
       normalized:[100, 100, 100, 100, 100, 100]"
     ```
+
+Full experimental system architecture including Vicon system, Ground PC, UAV and networks: read ICUAS18_0164 article.
