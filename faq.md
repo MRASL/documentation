@@ -38,10 +38,11 @@
     * Install Vicon DataStream SDK
     * Open a terminal and go to the installed folder and run the SimpleViewer application
       ```
-      $ cd C:\Program Files\Vicon\DataStream SDK\Win64\SimpleViewer      
-      $ ViconDataStreamSDK_SimpleViewer.exe 192.168.1.200
+      cd C:\Program Files\Vicon\DataStream SDK\Win64\SimpleViewer      
+      ViconDataStreamSDK_SimpleViewer.exe 192.168.1.200
       ```
       If the connection to the Vicon server (192.168.1.200) is well established,  the SimpleViewer interface will be opened.
+      
       ![](/assets/ViconSDK.png)   
   * Power on the Active Wand and walk in the flight area. You can see the Active Wand object in the SimpleViewer interface. The Vicon data is now ready to be used in your personnal laptop.
 
