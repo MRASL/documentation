@@ -5,10 +5,13 @@
 
 ## My labtop connected to the local network MRASL. Why can't it receive data from VICON server (192.168.1.200)?
   * Check the Asus router (local network MRASL) connections
+
     *photo here*
+
   **N.B. Do not connect this router to the school's network (prohibited by the Service Informatique Polymtl)!**
 
   * Check the Vicon server network connections: *MRASL LAN* - local network connection, *Polymtl Internet* - school's network and *VICON MX* - 12 cameras
+
     *photo here*
 
   * Check network adapter priorities:

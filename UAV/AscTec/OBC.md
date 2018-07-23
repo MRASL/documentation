@@ -2,13 +2,16 @@
 
 # OBC FAQ
 ## How can I use the Asctec OBC with a monitor, mouse and keyboard?
-photo here
+
+*photo here*
+
 ## The Astec OBC is not working?
-check CMOS battery
+Check BIOS battery
 
 ## ROS and/or Ubuntu are broken. How do I recover the factory image and other configurations (from Clearpath Canada)?
 * Recovery Image from Astec: Ubuntu and ROS (only core)
 * IP configurations
+
 * ROS dependencies
 
 ## How can I sent the individual motor speed commands (lowest command level) to the motor controllers?
