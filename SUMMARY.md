@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Laboratory Regulations](Laboratory.md)
+* [FAQ](faq.md)
 * [Aerial Vehicles](aerial-vehicles.md)
   * [Before you fly](UAV/Safety.md)
   * [Ascending Technologies](UAV/ascending-technologies.md)
@@ -38,7 +39,6 @@
   * [Unix](Software/Unix.md)
   * [MATLAB/Simulink](Software/todo-matlab.md)
   * [ROS](Software/Ros.md)
-* [FAQ](faq.md)
 * Logistics
   * [Personnel](Logistics/People.md)
   * [Contribute \(Github\)](Logistics/Contribute.md)
