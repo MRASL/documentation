@@ -20,4 +20,4 @@ We have our own fork on Github [here](https://github.com/MRASL/motion_capture_sy
 
 
 ## Using Matlab/C/C++/.Net
-Read the pdf file [Vicon_DataStream_SDK_Manual.pdf](https://docs.vicon.com/download/attachments/55803905/Vicon%20DataStream%20SDK%20Developer%27s%20Guide.pdf?version=1&modificationDate=1518710720000&api=v2)
+Read the pdf file Vicon_DataStream_SDK_Manual.pdf
