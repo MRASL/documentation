@@ -17,3 +17,7 @@ Use this if you want unfiltered data directly from the Vicon server. Provides po
 Runs an EKF to provide position, orientation, velocity and angular velocity. Only 1 parameter has to be provided for noise (`max_accel`), can track multiple objects.
 
 We have our own fork on Github [here](https://github.com/MRASL/motion_capture_system).
+
+
+## Using Matlab/C/C++/.Net
+Read the pdf file [Vicon_DataStream_SDK_Manual.pdf](https://docs.vicon.com/download/attachments/55803905/Vicon%20DataStream%20SDK%20Developer%27s%20Guide.pdf?version=1&modificationDate=1518710720000&api=v2)
