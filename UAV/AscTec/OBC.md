@@ -174,7 +174,7 @@ Note: from Ubuntu 14, `apt-get` is replaced by `apt`. Use `apt-cache search` for
   * Running fcu
     ```
     souce devel/setup.bash
-    roslaunch asctec_hl_interface/launch/fcu.launch
+    roslaunch asctec_hl_interface fcu.launch
     ```
   * Sent motor command in range 1 to 200: make sure that the **PROPELLERS ARE NOT MOUNTED**
     ```
@@ -186,7 +186,7 @@ Note: from Ubuntu 14, `apt-get` is replaced by `apt`. Use `apt-cache search` for
       frame_id: ''
       angles: -0
       angular_velocities: -0
-      normalized:[100, 100, 100, 100, 100, 100]"
+      normalized: [100, 100, 100, 100, 100, 100]"
     ```
 
 Full experimental system architecture including Vicon system, Ground PC, UAV and networks: read ICUAS18_0164 article.
