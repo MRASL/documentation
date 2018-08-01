@@ -1,12 +1,6 @@
 Our Asctec UAVs are equipped with Asctec Mastermind onboard computers (Atom 1.66 GHz dual core CPU, 4 GB RAM), running Ubuntu 14.04 and ROS Jade.
 
 # OBC Frequenctly Asked Questions
-## How can I use the Asctec OBC with a monitor, mouse and keyboard?
-
-*photo here*
-
-## The Astec OBC is not working?
-Check BIOS battery
 
 ## Wifi keeps dropping out, what gives?
 Each UAVs has an Intel 7260 Wifi adapter and there are a lot of complaints online about instability issues. Try adding to `/etc/modprobe/iwlwifi.conf` the following:
@@ -190,3 +184,10 @@ Note: from Ubuntu 14, `apt-get` is replaced by `apt`. Use `apt-cache search` for
     ```
 
 Full experimental system architecture including Vicon system, Ground PC, UAV and networks: read ICUAS18_0164 article.
+
+## How can I use the Asctec OBC with a monitor, mouse and keyboard?
+
+*photo here*
+
+## The Astec OBC is not working?
+Check BIOS battery
