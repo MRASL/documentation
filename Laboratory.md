@@ -1,5 +1,7 @@
 # Laboratory Rules and Safety  
 
+This page is under construction. If you have any questions/idea, please let us know and use [Gitbook](/Logistics/Gitbook.md) to update it. Thank you for your contribution.
+
 ## General
 * Make sure the door is locked from outside.
 * [Safety Instructions](/UAV/Safety.md).
@@ -17,6 +19,3 @@
   * Do not install any software on Vicon server
   * Calibration: at least once a day
 * MRASL local network: Do not connect the router to the school's network (Service Informatique Polymtl)
-
-
-This page is under construction. If you have any questions/idea, please let us know and use [Gitbook](/Logistics/Gitbook.md) to update it. Thank you for your contribution.
