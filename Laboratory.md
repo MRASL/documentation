@@ -3,10 +3,11 @@
 This page is under construction. If you have any questions/ideas, please let us know and use [Gitbook](/Logistics/Gitbook.md) to update it. Thank you for your contribution.
 
 ## General
-* Make sure the door is locked from outside.
+* Make sure the door is locked from the outside.
 * [Safety Instructions](/UAV/Safety.md).
 * Visit our [FAQ](/faq.md) page first if there are any problems.
-* At the end of the day: close Vicon, turn off the Asus router and switches, no batteries charging, ...
+* At the end of the day: close the Vicon system, turn off the Asus router (mrasl) and switches. Make sure no batteries are charging and that the Vicon computer desk is free
+and clean.
 
 ## Equipments
 * The right equipment, the right place.
