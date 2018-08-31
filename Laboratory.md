@@ -1,6 +1,6 @@
 # Laboratory Rules and Safety
 
-This page is under construction. If you have any questions/ideas, please let us know and use [Gitbook](/Logistics/Gitbook.md) to update it. Thank you for your contribution. aaa
+This page is under construction. If you have any questions/ideas, please let us know and use [Gitbook](/Logistics/Gitbook.md) to update it. Thank you for your contribution. 
 
 ## General
 
