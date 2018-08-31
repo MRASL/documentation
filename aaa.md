@@ -11,11 +11,15 @@ This is a tutorial on to install the[ RCBenchmark 1580](https://www.rcbenchmark.
 
 4. Follow the instruction for the installation of the software in the [RCBenchmark manual](https://www.rcbenchmark.com/wp-content/uploads/2016/03/Manual_Series_1580_1_12.pdf) \(step 7 to 12\) BUT do not use the chrome app. Use the software downloaded at step 1. The chrome app seems to yield inferior results \(poor sample rate\) and has problems recognizing the USB port of the RCBenchmark.
 
+5. When the Benchmark is installed \(not bolted yet\), the Thrust and Torque Calibration can be performed in the Utilities menu. Afterward, the Load Cells can be tared to obtain maximum precision.
+
 Other information:
 
 * The signal sent by the software to the ESC is a PWM signal of frequency 50Hz and duty-cycle between 1/20 \(No throttle\) and 1/10 \(max throttle\). This signal has a tension between 0 and 5V. The maximum and minimum value for the duty-cycle of the PWM can be changed in the section Utilities-&gt;Outputs limits.
 * Be sure to not firmly bolt the Benchmark before having completed the Thrust Calibration because this procedure needs to be done with the setup placed vertically \(with a C-Grip\). 
 * 
+
+
 Usefuls links:
 
 * [Short guide on the installation of the RCBenchmark 1580 ](https://rcbenchmark.gitlab.io/docs/en/dynamometer/series-1580/series-1580-setup-guide.html)
