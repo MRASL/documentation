@@ -27,7 +27,7 @@
     * [Usage](Equipment/Vicon/Usage.md)
     * [\(TODO\) Vicon Tracker](Equipment/Vicon/todo-vicon-tracker.md)
     * [\(TODO\) ROS](Equipment/Vicon/todo-ros.md)
-  * [Networking](networking.md)
+  * Networking
     * [LAN](Equipment/Networking/LAN.md)
     * [WiFi](Equipment/Networking/WiFi.md)
   * [RCBenchmark](aaa.md)
@@ -39,6 +39,7 @@
   * [Unix](Software/Unix.md)
   * [MATLAB/Simulink](Software/todo-matlab.md)
   * [ROS](Software/Ros.md)
+  * [Kdenlive and video plotting tricks](Software/Kdenlive.md)
 * Logistics
   * [Personnel](Logistics/People.md)
   * [Contribute \(Github\)](Logistics/Contribute.md)

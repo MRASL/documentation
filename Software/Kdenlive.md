@@ -1,6 +1,6 @@
 # Kdenlive "nonlinear" video editor
 
-### Tutorial : How to dynamically plot data on Matlab and play simultaneously a video of your UAV/UGV?
+### How to dynamically plot data on Matlab and simultaneous play video of your UAV/UGV?
 
 A repo by Justin CANO (MRASL) with some example code can be found there :
 
