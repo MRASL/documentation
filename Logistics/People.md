@@ -28,7 +28,7 @@
 * **Arnaud Venet**
   - M.Sc.A. student under the supervision of Prof. Le Ny
   - _Research subject:_ Robot SLAM with lidar measurement, new filtering approach.
-* **Mathieu Tardispock**
+* **Mathieu Ashby**
   - M.Sc.A. student under the supervision of Prof. Saussié
   - _Research subject:_ UAV controller synthesis for precise landing purposes. 
 
