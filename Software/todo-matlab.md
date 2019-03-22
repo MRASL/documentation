@@ -17,5 +17,15 @@ If you're testing a UAV in the lab, chances are you're going to switch between f
 * [Getting Started with Stateflow](https://www.youtube.com/watch?v=XpQ2osUE4v4)
 * [Using Simulink Functions in Stateflow](https://www.mathworks.com/help/stateflow/examples/using-simulink-functions-in-stateflow.html)
 
+## Toolbox licenses for MATLAB/Simulink
+
+Our laboratory \(physically situated at L-5816 and virtually in VLAN24\) has the following reserved toolbox licenses for MATLAB/Simulink:
+
+* 1 x [MATLAB Coder](https://www.mathworks.com/products/matlab-coder.html) \(note that the [Embedded Coder](https://www.mathworks.com/products/embedded-coder.html) toolbox may also be necessary sometimes when using [MATLAB Coder](https://www.mathworks.com/products/matlab-coder.html)\)
+
+* 2 x [Computer Vision](https://www.mathworks.com/products/computer-vision.html)
+
+The usage status of all MATLAB/Simulink licenses owned by the Electrical Engineering Department is available [here](https://www.grames.polymtl.ca/en/facilities/servers-information/#toggle-id-9) in the section named "MATLAB \(Service Informatique\)". Search for "L5816" to quickly view who is using a specific license. You can also search using some keywords of a specific toolbox or known usernames. The list of licenses automatically updates at a fixed unknown frequency. To release a license \(or to pass it to another laboratory colleague\) simply close your MATLAB program. The released license can be taken by a new user simply by using any specific function to the released toolbox license. Users remain owner of these floating licenses as long as their MATLAB session remains active.
+
 
 
