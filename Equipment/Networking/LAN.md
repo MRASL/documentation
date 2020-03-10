@@ -57,3 +57,4 @@ iface wlan0 inet static
   dns-nameservers 8.8.8.8 8.8.4.4
   post-up /sbin/route add -net 192.168.1.0 netmask 255.255.255.0 dev wlan0
 ```
+

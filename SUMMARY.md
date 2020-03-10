@@ -20,6 +20,7 @@
     * [Usage](UGV/Husky/Usage.md)
   * [iRobot Create](UGV/Create/Usage.md)
 * [Other Robots](other-robots.md)
+  
   * [Kinova Mico Arm](Other/Mico/Mico.md)
 * [Equipment](equipment.md)
   * [Vicon](vicon.md)
@@ -29,7 +30,12 @@
     * [\(TODO\) ROS](Equipment/Vicon/todo-ros.md)
   * Networking
     * [LAN](Equipment/Networking/LAN.md)
+    
     * [WiFi](Equipment/Networking/WiFi.md)
+    
+    * [NMCLI: an useful network manager in command prompt](Equipment/Networking/NMCLI.md)
+    
+      
   * [RCBenchmark](aaa.md)
   * [Batteries](Equipment/Batteries.md)
   * [Coffee Machine](Equipment/coffee.md)
