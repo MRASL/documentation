@@ -11,7 +11,7 @@ This is a tutorial on how to install and use the[ RCBenchmark 1580](https://www.
 
 5. When the Benchmark is installed \(not bolted yet\), the Thrust and Torque Calibration can be performed in the Utilities menu. Afterward, the Load Cells can be tared to obtain maximum precision. After these calibrations, the setup can be bolted.
 
-6. Use the Manual Control menu to directly send commands to the ESC or the motor. 1000 us for no throttle, 1500 us for a medium throttle and 2000 us for a maximum throttle. 
+6. Use the Manual Control menu to directly send commands to the ESC or the motor. 1000 us for no throttle, 1500 us for a medium throttle and 2000 us for a maximum throttle.
 
 7. Different graphics can be observed in the GUI. These data can afterward be written in a CSV file.
 
@@ -21,7 +21,7 @@ This is a tutorial on how to install and use the[ RCBenchmark 1580](https://www.
 
 * The signal sent by the software to the ESC is a PWM signal of frequency 50Hz and duty-cycle between 1/20 \(No throttle\) and 1/10 \(max throttle\). This signal has a tension between 0 and 5V. The maximum and minimum value for the duty-cycle of the PWM can be changed in the section Utilities-&gt;Outputs limits.
 
-* Be sure to not firmly bolt the Benchmark before having completed the Thrust Calibration because this procedure needs to be done with the setup placed vertically \(with a C-Grip\). 
+* Be sure to not firmly bolt the Benchmark before having completed the Thrust Calibration because this procedure needs to be done with the setup placed vertically \(with a C-Grip\).
 * Stiff security cutoffs are in place on the GUI, which limits the value of current, RPM, vibrations and other critical value on the Testbench. Their value can be modified in the menu Safety Cutoffs.
 
 * The sample rate of the Testbench is dependent on the performance of the computer connected to the Testbench. Maximum 50Hz with a good computer.
@@ -35,4 +35,3 @@ This is a tutorial on how to install and use the[ RCBenchmark 1580](https://www.
 * [Main site of RCBenchmark 1580](https://www.rcbenchmark.com/dynamometer-series-1580/)
 
 By Karim Bouzid, If you have any questions, contact me at karim.bouzid.1@ulaval.ca
-

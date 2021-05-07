@@ -8,8 +8,7 @@
 
 * [Saad Chidami](http://www.polymtl.ca/bottin/recherche.php?q=Saad Chidami "Saad Chidami")
   * Technical resource coordinator
-* **Hamza Benzarrouk**
-  * Post-Doc under the supervision of Jérôme Le Ny (alumni, now)
+ 
 
 # Students
 

@@ -13,5 +13,6 @@ The [VICON](https://www.vicon.com/ "VICON") motion capture system is made of a n
 * Main station \(PC\)
 * VICON software \(PC\)
 
-
-
+## Usage
+* [Set up and Calibration]
+* Get data

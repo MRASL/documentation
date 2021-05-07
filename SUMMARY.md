@@ -3,6 +3,16 @@
 * [Introduction](README.md)
 * [Laboratory Regulations](Laboratory.md)
 * [FAQ](faq.md)
+* [Equipment](equipment.md)
+  * [Vicon](Equipment/Vicon/vicon.md)
+    * [Calibration](Equipment/Vicon/Calibration.md)
+    * [Usage](Equipment/Vicon/Usage.md)
+    * [\(TODO\) Vicon Tracker](Equipment/Vicon/todo-vicon-tracker.md)
+    * [\(TODO\) ROS](Equipment/Vicon/todo-ros.md)
+  * Networking
+    * [LAN](Equipment/Networking/LAN.md)
+    * [WiFi](Equipment/Networking/WiFi.md)
+    * [NMCLI: an useful network manager in command prompt](Equipment/Networking/NMCLI.md)
 * [Aerial Vehicles](aerial-vehicles.md)
   * [Before you fly](UAV/Safety.md)
   * [Ascending Technologies](UAV/ascending-technologies.md)
@@ -20,23 +30,8 @@
     * [Usage](UGV/Husky/Usage.md)
   * [iRobot Create](UGV/Create/Usage.md)
 * [Other Robots](other-robots.md)
-  
   * [Kinova Mico Arm](Other/Mico/Mico.md)
-* [Equipment](equipment.md)
-  * [Vicon](vicon.md)
-    * [Calibration](Equipment/Vicon/Calibration.md)
-    * [Usage](Equipment/Vicon/Usage.md)
-    * [\(TODO\) Vicon Tracker](Equipment/Vicon/todo-vicon-tracker.md)
-    * [\(TODO\) ROS](Equipment/Vicon/todo-ros.md)
-  * Networking
-    * [LAN](Equipment/Networking/LAN.md)
-    
-    * [WiFi](Equipment/Networking/WiFi.md)
-    
-    * [NMCLI: an useful network manager in command prompt](Equipment/Networking/NMCLI.md)
-    
-      
-  * [RCBenchmark](aaa.md)
+  * [RCBenchmark](rcbenchmark.md)
   * [Batteries](Equipment/Batteries.md)
   * [Coffee Machine](Equipment/coffee.md)
 * Software
@@ -52,4 +47,3 @@
   * [Contribute \(Gitbook Editor\)](Logistics/Gitbook.md)
 * [Past Projects](past-projects.md)
 * [Past Team Members](past-teams.md)
-
