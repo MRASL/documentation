@@ -14,5 +14,5 @@ The [VICON](https://www.vicon.com/ "VICON") motion capture system is made of a n
 * VICON software \(PC\)
 
 ## Usage
-* [Set up and Calibration]
-* Get data
+* [Set up and Calibration](/Equipment/Vicon/Calibration.md)
+* [VICON data](/Equipment/Vicon/Usage.md)
