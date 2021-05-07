@@ -13,31 +13,37 @@
 
 # Students
 
-* **Duc Tien Nguyen**
-  * Ph.D. student under the supervision of Profs. Saussié & Saydy
-  * _Research subject:_ Fault tolerant control
-* **Olivier Gougeon**
-  * M.Sc.A. student under the supervision of Prof. Saussié
-  * _Research subject:_ Convertible/Hybrid drones
 * **Justin Cano**
-  * M.Sc.A. student under the supervision of Prof. Le Ny
-  * _Research subject:_ Ultra-wideband localisation for UGV aided by UWB technologies. 
-* **Jérémie Pilon**
-  * M.Sc.A. student under the supervision of Prof. Saussié
-  * _Research subject:_ Adaptive control
-* **Arnaud Venet**
-  - M.Sc.A. student under the supervision of Prof. Le Ny
-  - _Research subject:_ Robot SLAM with lidar measurement, new filtering approach.
-* **Mathieu Ashby**
-  - M.Sc.A. student under the supervision of Prof. Saussié
-  - _Research subject:_ UAV controller synthesis for precise landing purposes. 
+  * Ph.D. candidate under the supervision of Prof. Le Ny
+  * _Research subject:_ Ultra-wideband localisation for UGV aided by UWB technologies.
 
 # Alumni
 
+* **Duc Tien Nguyen**
+  * Ph.D. under the supervision of Profs. Saussié & Saydy
+  * _Research subject:_ Fault tolerant control of UAVs
+  * Graduated in summer 2021
+* **Mathieu Ashby**
+  - M.Sc.A. student under the supervision of Prof. Saussié
+  - _Research subject:_ UAV controller synthesis for precise landing purposes
+  - Graduated in fall 2020
+* **Jérémie Pilon**
+  * M.Sc.A. student under the supervision of Prof. Saussié
+  * _Research subject:_ Adaptive control
+  * Graduated in fall 2019
+* **Arnaud Venet**
+  - M.Sc.A. student under the supervision of Prof. Le Ny
+  - _Research subject:_ Robot SLAM with lidar measurement, new filtering approach.
+  * Graduated in fall 2019
+* **Olivier Gougeon**
+  * M.Sc.A. student under the supervision of Prof. Saussié
+  * _Research subject:_ Convertible/Hybrid drones
+  * Graduated in summer 2019
 - **Catherine Massé**
   - M.Sc.A. student under the supervision of Prof. Saussié
   - Research subject:_ Quadcopter with robotic arm
   - Graduated in fall 2018
+  - Current position: Ph.D. candidate at McGill
 - **Dang Quang Nguyen**
   - M.Sc.A. student under the supervision of Prof. Gourdeau
   - _Research subject:_ Collaborative control of a smart wheel chair with obstacle avoidance
